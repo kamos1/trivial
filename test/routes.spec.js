@@ -11,16 +11,13 @@ describe('API route', () => {
 	before((done) => {
 		knex.migrate.latest()
 		.then(() => {
-			done();
+			knex.seed.run()
+			.then(() => {
+				done();
+			})
 		})
 	})
 
-	beforeEach((done) => {
-		knex.seed.run()
-		.then(() => {
-			done();
-		})
-	})
 
 	it('should return a random clue', (done) => {
 		chai.request(server)
@@ -44,7 +41,7 @@ describe('API route', () => {
 			res.should.have.status(404);
 			res.should.be.json;
 			res.body.should.have.property('error');
-			res.body.error.should.equal('jack did not have any clues! Please check the spelling of the category you requested!');
+			res.body.error.should.equal('jack does not exist! Please check the category you requested!');
 			done();
 		})
 	})
