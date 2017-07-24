@@ -13,6 +13,7 @@ const createCategory = (knex, category) => {
       }
       cluesPromises.push(
         createClues(knex, {
+          id: clue.id,
           question: clue.question,
           answer: clue.answer,
           value: clue.value,
