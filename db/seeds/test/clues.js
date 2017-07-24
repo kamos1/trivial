@@ -1,4 +1,4 @@
-const questionData = require('../../../data/questions.json')
+const questionData = require('../../../data/sports.json')
 
 const createCategory = (knex, category) => {
   return knex('categories').insert({
