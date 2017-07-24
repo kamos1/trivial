@@ -11,10 +11,14 @@ describe('API route', () => {
 	before((done) => {
 		knex.migrate.latest()
 		.then(() => {
-			knex.seed.run()
-			.then(() => {
-				done();
-			})
+			done();
+		})
+	})
+
+	beforeEach((done) => {
+		knex.seed.run()
+		.then(() => {
+			done();
 		})
 	})
 
