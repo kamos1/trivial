@@ -11,14 +11,14 @@ describe('API route', () => {
 	before((done) => {
 		knex.migrate.latest()
 		.then(() => {
-			done()
+			done();
 		})
 	})
 
 	beforeEach((done) => {
 		knex.seed.run()
 		.then(() => {
-			done()
+			done();
 		})
 	})
 
@@ -37,7 +37,7 @@ describe('API route', () => {
 		})
 	})
 
-	it('should throw an error', () => {
+	it('should throw an error', (done) => {
 		chai.request(server)
 		.get('/api/v1/category/jack')
 		.end((error, res) => {
@@ -45,6 +45,7 @@ describe('API route', () => {
 			res.should.be.json;
 			res.body.should.have.property('error');
 			res.body.error.should.equal('jack did not have any clues! Please check the spelling of the category you requested!');
+			done();
 		})
 	})
 
