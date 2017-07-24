@@ -1,0 +1,2759 @@
+[
+  {
+    "id": 42,
+    "title": "sports",
+    "clues_count": 275,
+    "clues": [
+      {
+        "id": 212,
+        "answer": "the bullpen",
+        "question": "It's where relief pitchers, not matadors, warm up",
+        "value": 100,
+        "airdate": "1984-12-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 218,
+        "answer": "(only) a 3-year old (can run)",
+        "question": "Because of this rule, no horse has ever won the Kentucky Derby twice",
+        "value": 200,
+        "airdate": "1984-12-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 224,
+        "answer": "Buster Crabbe and Johnny Weissmuller",
+        "question": "These 2 former Olympic athletes became movie Tarzans",
+        "value": null,
+        "airdate": "1984-12-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 230,
+        "answer": "coxswain",
+        "question": "He shouts the commands in crew racing",
+        "value": 400,
+        "airdate": "1984-12-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 236,
+        "answer": "Abigail Adams",
+        "question": "",
+        "value": null,
+        "airdate": "1984-12-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 249,
+        "answer": "a let ball",
+        "question": "Tennis serve that touches net before dropping into proper court, it's replayed",
+        "value": 200,
+        "airdate": "1984-12-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 255,
+        "answer": "the Daily Double",
+        "question": "You win this when you pick the winners of 2 successive horse races",
+        "value": 300,
+        "airdate": "1984-12-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 261,
+        "answer": "self-contained underwater breathing apparatus",
+        "question": "What the letters in \"SCUBA\" stand for",
+        "value": 400,
+        "airdate": "1984-12-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 267,
+        "answer": "yellow (or gold)",
+        "question": "On an official archery target, it's the color of the bull's eye",
+        "value": 500,
+        "airdate": "1984-12-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 272,
+        "answer": "a pigskin",
+        "question": "Nickname for a football",
+        "value": 100,
+        "airdate": "1984-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 278,
+        "answer": "4",
+        "question": "A filly becomes a mare at this age",
+        "value": 200,
+        "airdate": "1984-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 284,
+        "answer": "his armpits",
+        "question": "According to rules, the strike zone in baseball extends from the batter's knees to here",
+        "value": 300,
+        "airdate": "1984-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 243,
+        "answer": "red",
+        "question": "",
+        "value": null,
+        "airdate": "1984-12-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": 1
+      },
+      {
+        "id": 290,
+        "answer": "the Super Bowl",
+        "question": "This bowl game changes location every year",
+        "value": 400,
+        "airdate": "1984-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 296,
+        "answer": "200",
+        "question": "The number of laps run in the Indy 500",
+        "value": 500,
+        "airdate": "1984-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 424,
+        "answer": "basketball",
+        "question": "Game where \"dribbling\" is \"offensive\"",
+        "value": 100,
+        "airdate": "1984-09-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 430,
+        "answer": "southpaw",
+        "question": "From early practice of pitcher facing west comes this baseball term for lefty",
+        "value": 200,
+        "airdate": "1984-09-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 436,
+        "answer": "the line of scrimmage",
+        "question": "Football's imaginary plane which neither team may cross until the ball is snapped",
+        "value": 300,
+        "airdate": "1984-09-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 442,
+        "answer": "skydiving",
+        "question": "World's fastest sport, free-fall speeds of 614 MPH have been recorded in this",
+        "value": 400,
+        "airdate": "1984-09-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 448,
+        "answer": "Sugar Ray Robinson",
+        "question": "'50s middleweight champ some say was pound-for-pound the best boxer ever",
+        "value": 500,
+        "airdate": "1984-09-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 483,
+        "answer": "fencing",
+        "question": "Sport which uses epees, foils & sabres",
+        "value": 100,
+        "airdate": "1984-09-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 489,
+        "answer": "the Golden Gloves",
+        "question": "Name given to annual competition among U.S. amateur boxers",
+        "value": 200,
+        "airdate": "1984-09-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 495,
+        "answer": "3",
+        "question": "Number of downs allowed in Canadian football to advance the ball 10 yards",
+        "value": 300,
+        "airdate": "1984-09-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 501,
+        "answer": "the Steelers and Eagles",
+        "question": "Because of WWII, these 2 NFL teams combined squads in '43 to become the \"Stegles\"",
+        "value": null,
+        "airdate": "1984-09-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 507,
+        "answer": "Bill Russell",
+        "question": "Ex-Boston Celtics' star who has refused induction into Basketball Hall of Fame",
+        "value": 500,
+        "airdate": "1984-09-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 546,
+        "answer": "golf",
+        "question": "What Gary Player plays professionailly",
+        "value": 100,
+        "airdate": "1984-09-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 552,
+        "answer": "<i>Birdman of Alcatraz</i>",
+        "question": "",
+        "value": null,
+        "airdate": "1984-09-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 558,
+        "answer": "<i>Being There</i>",
+        "question": "",
+        "value": null,
+        "airdate": "1984-09-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 570,
+        "answer": "Rocky Graziano",
+        "question": "Boxer whose life was portrayed in \"Somebody Up There Likes Me\"",
+        "value": 500,
+        "airdate": "1984-09-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 874,
+        "answer": "ol&eacute;",
+        "question": "At a bullfight, it's the fans' way of saying \"bravo\"",
+        "value": 100,
+        "airdate": "1986-04-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 880,
+        "answer": "bars, handles",
+        "question": "In gymnastics, the long horse is the same as the pommel horse, but without these",
+        "value": 200,
+        "airdate": "1986-04-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 886,
+        "answer": "Johnny Weissmuller",
+        "question": "It's said that in 10 years of competition, this '20s swimming star never lost a race from 50-880 yards",
+        "value": 300,
+        "airdate": "1986-04-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 892,
+        "answer": "1964",
+        "question": "In this year, 4 yrs. after his Olympic title, Muhammad Ali upset Sonny Liston for his 1st heavyweight crown",
+        "value": 400,
+        "airdate": "1986-04-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 898,
+        "answer": "tacking",
+        "question": "To maximize wind effectively in sailing you can use this zig-zag maneuver",
+        "value": 500,
+        "airdate": "1986-04-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 1362,
+        "answer": "Ted Turner",
+        "question": "He owns both basketball's Atlanta Hawks & baseball's Atlanta Braves",
+        "value": 100,
+        "airdate": "1985-11-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 1374,
+        "answer": "4",
+        "question": "",
+        "value": null,
+        "airdate": "1985-11-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 1368,
+        "answer": "volume",
+        "question": "",
+        "value": null,
+        "airdate": "1985-11-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": 1
+      },
+      {
+        "id": 1380,
+        "answer": "lowest common denominator",
+        "question": "",
+        "value": null,
+        "airdate": "1985-11-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 1386,
+        "answer": "yoicks",
+        "question": "",
+        "value": null,
+        "airdate": "1985-11-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": 1
+      },
+      {
+        "id": 2198,
+        "answer": "rugby",
+        "question": "This offshoot of soccer is named for a school in England",
+        "value": 100,
+        "airdate": "1987-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2204,
+        "answer": "Australia",
+        "question": "The overarm \"crawl\" swimming stroke was introduced to England in 1902 from this country",
+        "value": 200,
+        "airdate": "1987-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2210,
+        "answer": "basketball",
+        "question": "Springfield, Massachusetts is site of this sport's Hall of Fame",
+        "value": 300,
+        "airdate": "1987-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2216,
+        "answer": "(white) stripes",
+        "question": "Marks which distinguish Wilson footballs used in college games from the ones they make for the pros",
+        "value": 400,
+        "airdate": "1987-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2222,
+        "answer": "Floyd Patterson",
+        "question": "When he KO'd Ingemar Johansson, 6/20/60, he became 1st man to regain heavyweight championship",
+        "value": 500,
+        "airdate": "1987-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2291,
+        "answer": "a golf hole",
+        "question": "Bob Hope says one of his favorites is the 16th at Cypress Point in Pebble Beach",
+        "value": 100,
+        "airdate": "1987-04-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2297,
+        "answer": "bullfighting",
+        "question": "Spanish sport revived in China in 1986 with opening of a ring in the Zhejiang Province",
+        "value": 200,
+        "airdate": "1987-04-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2303,
+        "answer": "tennis",
+        "question": "A machine called the Cyclops is now used for line calls in this sport",
+        "value": 300,
+        "airdate": "1987-04-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2309,
+        "answer": "bowling",
+        "question": "Sport in which you might leave a bucket, Christmas tree or picket fence",
+        "value": 400,
+        "airdate": "1987-04-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 2315,
+        "answer": "Westminster Abbey",
+        "question": "Jack Broughton, inventor of the modern boxing glove, is buried in this British landmark",
+        "value": 500,
+        "airdate": "1987-04-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 6299,
+        "answer": "Switzerland",
+        "question": "The first bobsled races were held in this mountainous country",
+        "value": 100,
+        "airdate": "1990-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 6305,
+        "answer": "NCAA (National Collegiate Athletic Association)",
+        "question": "In 1910 the Intercollegiate Athletic Association changed its name to this",
+        "value": 200,
+        "airdate": "1990-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 6311,
+        "answer": "7 Iron",
+        "question": "A 5 iron is a mashie, a 9 iron is a niblick & this is a mashie niblick",
+        "value": 300,
+        "airdate": "1990-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 6317,
+        "answer": "Greyhound/dog racing",
+        "question": "Devised by Owen Patrick Smith, this sport was legalized in Florida in 1931",
+        "value": 400,
+        "airdate": "1990-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 6323,
+        "answer": "Football",
+        "question": "Australian Rules, American & Association describe sports that are all named this",
+        "value": 500,
+        "airdate": "1990-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7076,
+        "answer": "Bogey",
+        "question": "Lauren Bacall could tell you it's the term used for 1 stroke over par in golf",
+        "value": 100,
+        "airdate": "1990-01-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7082,
+        "answer": "100 meter dash",
+        "question": "In 1968 Olympic gold medalist Jim Hines became the 1st man to run this race in under 10 seconds",
+        "value": 200,
+        "airdate": "1990-01-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7088,
+        "answer": "ice hockey",
+        "question": "In this team sport, the neutral zone is located between 2 blue lines",
+        "value": 300,
+        "airdate": "1990-01-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7100,
+        "answer": "Hamburg",
+        "question": "",
+        "value": null,
+        "airdate": "1990-01-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7257,
+        "answer": "Judo",
+        "question": "A Japanese teacher named Jigaro Kano developed this modern version of jujitsu in the 1880s",
+        "value": 100,
+        "airdate": "1989-12-29T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7263,
+        "answer": "Princess Anne",
+        "question": "This noted horsewoman who competed at the Montreal Olympics in 1976 is also a princess",
+        "value": 200,
+        "airdate": "1989-12-29T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7269,
+        "answer": "Brahma",
+        "question": "Originally bred in India, it's the type of bull most often seen in bull riding contests",
+        "value": 300,
+        "airdate": "1989-12-29T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7275,
+        "answer": "Babe Didrikson Zaharias",
+        "question": "In 1947 she became the 1st American woman to win the British Women's Amateur golf tournament",
+        "value": 400,
+        "airdate": "1989-12-29T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7281,
+        "answer": "Zola Budd & Mary Decker Slaney",
+        "question": "Romania's Maricica Puica won the infamous 1984 race in which these 2 runners collided",
+        "value": 500,
+        "airdate": "1989-12-29T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7705,
+        "answer": "Bunker & Water",
+        "question": "According to USGA rules, 1 of 2 types of golf course hazards",
+        "value": 100,
+        "airdate": "1989-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7711,
+        "answer": "baseball",
+        "question": "In 1987 Jim Abbott became the 1st in this sport to win the Sullivan Award for amateur athletes",
+        "value": 200,
+        "airdate": "1989-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7717,
+        "answer": "the foil",
+        "question": "In women's Olympic fencing, only this weapon is used",
+        "value": 300,
+        "airdate": "1989-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7723,
+        "answer": "Detroit Red Wings & Hartford Whalers",
+        "question": "1 of 2 National Hockey League teams to retire Gordie Howe's uniform number",
+        "value": 400,
+        "airdate": "1989-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7729,
+        "answer": "Chicago, St. Louis & Phoenix",
+        "question": "The 3 cities that the National Football League Cardinals have represented",
+        "value": 500,
+        "airdate": "1989-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8277,
+        "answer": "the springboard & the platform",
+        "question": "While the heights may change, these are the 2 types of diving boards",
+        "value": 100,
+        "airdate": "1991-04-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8283,
+        "answer": "Bogie",
+        "question": "Prior to par, this term was used for the score golfers should make, and was preceded by Colonel",
+        "value": 200,
+        "airdate": "1991-04-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8289,
+        "answer": "tack",
+        "question": "Four letter word for all the gear used for controlling a horse in harness racing",
+        "value": 300,
+        "airdate": "1991-04-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8295,
+        "answer": "the New York City Marathon",
+        "question": "Though she came in 50th in this marathon, November 4, 1990, Wanda Panfil of Poland still got $26,385 & a car",
+        "value": 400,
+        "airdate": "1991-04-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8301,
+        "answer": "4",
+        "question": "If you form a polo team to take on Prince Charles', youll field this many players",
+        "value": 500,
+        "airdate": "1991-04-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8727,
+        "answer": "fencing",
+        "question": "At the 1988 Olympics the USSR won the gold for team foil in this sport",
+        "value": 100,
+        "airdate": "1990-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8733,
+        "answer": "skeet",
+        "question": "The Old Norse \"Skjota\", to shoot, gave us this word for a type of trapshooting",
+        "value": 200,
+        "airdate": "1990-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8739,
+        "answer": "\"Pop\"",
+        "question": "Among college football coaches, Paul Bryant was nickanmed Bear & G. Warner was nicknamed this",
+        "value": 300,
+        "airdate": "1990-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8745,
+        "answer": "boxing",
+        "question": "According to Forbes Magazine, the 3 highest-paid athletes for 1990 compete in this sport",
+        "value": 400,
+        "airdate": "1990-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 8751,
+        "answer": "Billy Hatcher",
+        "question": "In 1990 this Reds outfielder set a world series record with hits in 7 straight at-bats",
+        "value": 500,
+        "airdate": "1990-11-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9717,
+        "answer": "Wayne Gretzky",
+        "question": "This Los Angeles Kings hockey player is known as \"The Great One\"",
+        "value": 100,
+        "airdate": "1991-11-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9723,
+        "answer": "Buffalo (Bills)",
+        "question": "It's the only NFL team that currently plays its home games in New York state",
+        "value": 200,
+        "airdate": "1991-11-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9729,
+        "answer": "(\"Sugar Ray\") Robinson",
+        "question": "This \"sweet\" fighter won the world middleweight boxing title a record 5 times from 1951-1958",
+        "value": 300,
+        "airdate": "1991-11-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9735,
+        "answer": "Bobby Jones",
+        "question": "In 1930 he became the first & only man to sweep golf's four Grand Slam tournaments",
+        "value": 400,
+        "airdate": "1991-11-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9741,
+        "answer": "Bill Bradley",
+        "question": "In 1964 & 1965 The Sporting News named this future senator College Player of the Year in basketball",
+        "value": 500,
+        "airdate": "1991-11-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9867,
+        "answer": "Joe Louis",
+        "question": "In 1941 this heavyweight boxing champ successfully defended his title a record 7 times",
+        "value": 100,
+        "airdate": "1991-10-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9873,
+        "answer": "the New York Islanders",
+        "question": "The only NHL team from the U.S. to win the Stanley Cup in the 1980s was this Uniondale, NY based team",
+        "value": 200,
+        "airdate": "1991-10-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9879,
+        "answer": "yachting",
+        "question": "Star, Flying Dutchman & Tornado are classes in this Olympic sport",
+        "value": 300,
+        "airdate": "1991-10-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9885,
+        "answer": "Jack Nicklaus",
+        "question": "In the 1960s & 1970s he was professional golf's leading money winner 8 times",
+        "value": 400,
+        "airdate": "1991-10-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9891,
+        "answer": "the long jump",
+        "question": "On June 16, 1987, for the first time in a single meet, 3 men cleared 28' in this field event",
+        "value": 500,
+        "airdate": "1991-10-04T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9926,
+        "answer": "the Oilers",
+        "question": "In this mid-1980s this team from Edmonton won the NHL's Stanley Cup 4 years out of 5",
+        "value": 100,
+        "airdate": "1993-07-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9932,
+        "answer": "the Indianapolis 500",
+        "question": "Lyn St. James was named Rookie of the Year at this May 24, 1992 auto race, the first woman so honored",
+        "value": 200,
+        "airdate": "1993-07-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9938,
+        "answer": "Björn Borg",
+        "question": "From 1976 to 1980, this Swede won 5 straight Wimbledon men's singles championships",
+        "value": 300,
+        "airdate": "1993-07-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9944,
+        "answer": "Peggy Fleming",
+        "question": "From 1964 through 1968, she was the U.S. women's figure skating champion",
+        "value": 400,
+        "airdate": "1993-07-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 9950,
+        "answer": "the Buffalo Bills",
+        "question": "While playing for this team, O.J. Simpson led the NFL in rushing yardage 4 times",
+        "value": 500,
+        "airdate": "1993-07-09T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 10506,
+        "answer": "the pole vault",
+        "question": "On September 19, 1992 Sergei Bubka broke the world record in this event   for the 32nd time",
+        "value": 100,
+        "airdate": "1993-03-31T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 10512,
+        "answer": "Jack Nicklaus",
+        "question": "Known as the \"Golden Bear\", he was the 1st golfer to win all 4 major titles at least twice",
+        "value": 200,
+        "airdate": "1993-03-31T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 10518,
+        "answer": "wrestling",
+        "question": "Greco-Roman & freestyle are the 2 styles featured in this Olympic sport",
+        "value": 300,
+        "airdate": "1993-03-31T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 10524,
+        "answer": "the Sugar Bowl",
+        "question": "In 1975 this college football bowl game moved from Tulane Stadium to the Louisiana Superdome",
+        "value": 400,
+        "airdate": "1993-03-31T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 10530,
+        "answer": "the Cleveland Cavaliers",
+        "question": "It's the only NBA team in Ohio",
+        "value": 500,
+        "airdate": "1993-03-31T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11226,
+        "answer": "the Dream Team",
+        "question": "At the 1992 Olympics, the U.S. Men's Basketball team was known by this rhyming name",
+        "value": 100,
+        "airdate": "1992-10-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11232,
+        "answer": "Asia",
+        "question": "Since the 1950s players from this continent have been the dominant force in table tennis",
+        "value": 200,
+        "airdate": "1992-10-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11238,
+        "answer": "a mask",
+        "question": "This piece of fencing equipment is made of strong wire mesh & may be padded",
+        "value": 300,
+        "airdate": "1992-10-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11244,
+        "answer": "breaststroke",
+        "question": "In swimming the butterfly stroke originated as a modification of this similar stroke",
+        "value": 400,
+        "airdate": "1992-10-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11250,
+        "answer": "the palm of the hand",
+        "question": "The origins of tennis go back to jeu de paume, a game in which the ball was struck with this body part",
+        "value": 500,
+        "airdate": "1992-10-27T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11589,
+        "answer": "Kentucky Derby",
+        "question": "Regret, Genuine Risk & Winning Colors are the only fillies to win this Triple Crown race",
+        "value": 100,
+        "airdate": "1994-05-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11595,
+        "answer": "the America\\'s Cup",
+        "question": "This sterling silver yachting trophy was designed by London's Robert Garrard Crown jewelers in 1848",
+        "value": 200,
+        "airdate": "1994-05-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11601,
+        "answer": "the decathlon",
+        "question": "American winners of this Olympic event include Bob Mathias, Rafer Johnson & Bruce Jenner",
+        "value": 300,
+        "airdate": "1994-05-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11607,
+        "answer": "the (Colorado) Rockies",
+        "question": "The insignia of this National League baseball team features a mountain peak",
+        "value": 400,
+        "airdate": "1994-05-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11613,
+        "answer": "UCLA",
+        "question": "Bill Walton of this school was the outstanding player of the NCAA basketball tournament in 1972 & 1973",
+        "value": 500,
+        "airdate": "1994-05-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11766,
+        "answer": "Martina Navratilova",
+        "question": "From 1982-87, she held the top rank in tennis for all but 22 weeks of a 270-week stretch",
+        "value": 100,
+        "airdate": "1993-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11772,
+        "answer": "Ice Hockey",
+        "question": "Dave \"Tiger\" Williams holds the career record for penalty minutes in this sport with 3,966",
+        "value": 200,
+        "airdate": "1993-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11778,
+        "answer": "Dan Marino",
+        "question": "This Dolphins quarterback has passed for over 400 yards in a single game a record 10 times",
+        "value": 300,
+        "airdate": "1993-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11784,
+        "answer": "Ken Griffey, Jr.",
+        "question": "In 1993, this Seattle center fielder tied a Major League record by hitting home runs in eight straight games",
+        "value": 400,
+        "airdate": "1993-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 11790,
+        "answer": "Eric Heiden",
+        "question": "In 1980, this U.S. speed skater became the first athlete to win five individual gold medals in one Olympics",
+        "value": 500,
+        "airdate": "1993-12-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12396,
+        "answer": "Joe Namath",
+        "question": "In 1967 this New York Jets quarterback became the first pro to pass for more than 4,000 yards in a season",
+        "value": 100,
+        "airdate": "1995-07-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12402,
+        "answer": "the Boston Marathon",
+        "question": "Founded in 1897, it's the world's oldest annual marathon",
+        "value": 200,
+        "airdate": "1995-07-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12408,
+        "answer": "the Utah Jazz",
+        "question": "In 1991, after 12 seasons at the Salt Palace, this NBA team moved its home games to the Delta Center",
+        "value": 300,
+        "airdate": "1995-07-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12414,
+        "answer": "ice skating (men\\'s figure skating)",
+        "question": "In 1992 Viktor Petrenko won the world championship in this sport",
+        "value": 400,
+        "airdate": "1995-07-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12420,
+        "answer": "(Sandy) Koufax",
+        "question": "During his 1955-1966 career, this Dodger pitcher averaged 9.28 strikeouts per 9 innings",
+        "value": 500,
+        "airdate": "1995-07-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12426,
+        "answer": "Larry Bird",
+        "question": "Co-captains of the 1992 Olympic basketball \"Dream Team\" were Magic Johnson & this Celtics star",
+        "value": 100,
+        "airdate": "1995-07-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12432,
+        "answer": "the Tampa Bay Buccaneers",
+        "question": "This NFL team's logo features a pirate with a dagger in his mouth",
+        "value": 200,
+        "airdate": "1995-07-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12438,
+        "answer": "Wrigley Field",
+        "question": "With a capacity of just 38,756, this Chicago Cubs stadium is the smallest in the National League",
+        "value": 300,
+        "airdate": "1995-07-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12444,
+        "answer": "Rickenbacker",
+        "question": "From 1927 to 1945, this World War I flying ace owned the Indianapolis Speedway",
+        "value": 400,
+        "airdate": "1995-07-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12450,
+        "answer": "(Jack) Dempsey (the \"Manassa Mauler\")",
+        "question": "On July 4, 1919 this boxer from Manassa, Colo. defeated Jess Willard to win the world heavyweight title",
+        "value": 500,
+        "airdate": "1995-07-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12906,
+        "answer": "Marathon",
+        "question": "The Iron Man Triathlon consists of a 2.4-mile swim, a 112-mile bike race & this 26.2-mile run",
+        "value": 100,
+        "airdate": "1994-11-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12912,
+        "answer": "Indianapolis Motor Speedway",
+        "question": "On August 6, 1994 Jeff Gordon won the Brickyard 400, the first stock car race on this track",
+        "value": 200,
+        "airdate": "1994-11-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12918,
+        "answer": "Tennis",
+        "question": "In the 1920s & 1930s Helen Wills Moody was the top-ranked women's player in this sport a record 9 times",
+        "value": 300,
+        "airdate": "1994-11-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12924,
+        "answer": "Bobby Jones",
+        "question": "In 1930 this golfer became the first recipient of the AAU's Sullivan Award, as the year's top male athlete",
+        "value": 400,
+        "airdate": "1994-11-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 12930,
+        "answer": "Eddie Arcaro",
+        "question": "This jockey is the only man to ride 2 Triple Crown winners: Whirlaway & Citation",
+        "value": 500,
+        "airdate": "1994-11-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13086,
+        "answer": "Mike Tyson",
+        "question": "This former heavyweight boxing champ is known as \"Iron Mike\"",
+        "value": 100,
+        "airdate": "1994-10-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13092,
+        "answer": "Martina Navratilova",
+        "question": "Only Chris Evert & this player have exceeded 100 tournament wins in women's tennis",
+        "value": 200,
+        "airdate": "1994-10-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13098,
+        "answer": "Los Angeles Rams",
+        "question": "In 1980 this NFL team moved its home games to Anaheim Stadium",
+        "value": 300,
+        "airdate": "1994-10-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13104,
+        "answer": "Arnold Palmer",
+        "question": "In 1963 this golfer became the first in his sport to earn more than $100,000 in 1 year",
+        "value": 400,
+        "airdate": "1994-10-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13110,
+        "answer": "Boston",
+        "question": "From 1876 through 1952, the Braves baseball franchise was located in this city",
+        "value": 500,
+        "airdate": "1994-10-07T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13206,
+        "answer": "Pele",
+        "question": "He scored 12 career goals in World Cup competition; now he's Brazil's special minister for sports",
+        "value": 100,
+        "airdate": "1996-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13212,
+        "answer": "Steffi Graf",
+        "question": "From 1987-1995, this German tennis star won 18 womens' singles Grand Slam tournaments",
+        "value": 200,
+        "airdate": "1996-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13218,
+        "answer": "Nadia Comaneci",
+        "question": "Other than the Olympics, this Romanian's only World Gymnastics Championship came in 1978 on the balance beam",
+        "value": 300,
+        "airdate": "1996-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13224,
+        "answer": "Seve Ballesteros",
+        "question": "In the 1980s, this Spaniard became the youngest golfer to win the Masters & helped Europe win 3 Ryder Cups",
+        "value": 400,
+        "airdate": "1996-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13230,
+        "answer": "24 Hours of Le Mans",
+        "question": "Jacky Ickx has won this 24-hour French auto race a record 6 times",
+        "value": 500,
+        "airdate": "1996-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13716,
+        "answer": "Rose Bowl",
+        "question": "Since 1947 teams competing in this Pasadena bowl game have come from the Pac 10 & Big 10 conferences",
+        "value": 100,
+        "airdate": "1996-04-02T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13722,
+        "answer": "George Foreman",
+        "question": "On Nov. 5, 1994 he became the oldest to win a heavyweight title -- or any boxing title -- at age 45",
+        "value": 200,
+        "airdate": "1996-04-02T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13728,
+        "answer": "Julius Erving",
+        "question": "In 1993 this Philadelphia 76ers player nicknamed \"Dr. J\" was inducted into the Basketball Hall of Fame",
+        "value": 300,
+        "airdate": "1996-04-02T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13734,
+        "answer": "Balance Beam",
+        "question": "The 4 basic events in women's gymnastics are floor exercise, uneven parallel bars, vault & this event",
+        "value": 400,
+        "airdate": "1996-04-02T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13740,
+        "answer": "The Mile",
+        "question": "On Sept. 5, 1993 Noureddine Morceli of Algeria set the world record in this event at 3:44.39",
+        "value": 500,
+        "airdate": "1996-04-02T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13866,
+        "answer": "Houston Rockets",
+        "question": "On June 14, 1995 this team led by Hakeem Olajuwon won its second straight NBA title",
+        "value": 100,
+        "airdate": "1996-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13872,
+        "answer": "Willie Shoemaker",
+        "question": "In 1985 he became the first jockey to win over $100,000,000 in career purses",
+        "value": 200,
+        "airdate": "1996-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13878,
+        "answer": "George Foreman",
+        "question": "Muhammad Ali called his 1974 heavyweight fight with this recent champ the \"Rumble In The Jungle\"",
+        "value": 300,
+        "airdate": "1996-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13884,
+        "answer": "Al Unser, Jr.",
+        "question": "He won the Indy 500 in 1992 & 1994; his father won the race on 4 previous occasions",
+        "value": 400,
+        "airdate": "1996-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 13890,
+        "answer": "Sullivan Award",
+        "question": "In 1944 swimmer Ann Curtis became the 1st woman to receive this award as the nation's oustanding amateur athlete",
+        "value": 500,
+        "airdate": "1996-03-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 14558,
+        "answer": "Johnny Weissmuller",
+        "question": "On July 9, 1922 this future movie Tarzan became the first to swim the 100-meter freestyle in under a minute",
+        "value": 100,
+        "airdate": "1995-11-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 14564,
+        "answer": "Gymnastics",
+        "question": "Kim Zmeskal & Shannon Miller are the only U.S. women to win the all-around title at these world championships",
+        "value": 200,
+        "airdate": "1995-11-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 14570,
+        "answer": "British Open",
+        "question": "Of the four Grand Slam golf tournaments, it's the only one played outside the U.S.",
+        "value": 300,
+        "airdate": "1995-11-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 14576,
+        "answer": "Candlestick Park",
+        "question": "With a capacity of 63,000, this San Francisco ballpark is the National League's largest",
+        "value": 400,
+        "airdate": "1995-11-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 14582,
+        "answer": "Boston Marathon",
+        "question": "The first to win this Patriots' Day event was John McDermott in 1897",
+        "value": 500,
+        "airdate": "1995-11-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15068,
+        "answer": "Golf",
+        "question": "The Arnold Palmer Award is given for the highest annual earnings in this sport",
+        "value": 100,
+        "airdate": "1997-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15074,
+        "answer": "Los Angeles Dodgers",
+        "question": "On January 6, 1997 Peter O'Malley announced this baseball team was for sale",
+        "value": 200,
+        "airdate": "1997-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15080,
+        "answer": "Atlanta Hawks",
+        "question": "This Atlanta team's Lenny Wilkens is the only active coach with more than 1,000 career NBA victories",
+        "value": 300,
+        "airdate": "1997-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15086,
+        "answer": "Dallas Cowboys & San Francisco 49ers",
+        "question": "1 of 2 teams that have won 5 Super Bowls",
+        "value": 400,
+        "airdate": "1997-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15092,
+        "answer": "Softball",
+        "question": "The U.S.O.C. named Dot Richardson this Olympic sport's 1996 Female Athlete of the Year",
+        "value": 500,
+        "airdate": "1997-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15156,
+        "answer": "Michael Jordan",
+        "question": "On November 30, 1996 this Bulls player became the 10th in NBA history to reach 25,000 career points",
+        "value": 100,
+        "airdate": "1997-07-11T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15162,
+        "answer": "Steffi Graf",
+        "question": "This German won 7 of 9 Wimbledon women's singles titles from 1988-1996",
+        "value": 200,
+        "airdate": "1997-07-11T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15168,
+        "answer": "Dan Marino",
+        "question": "In 1996 Emmitt Smith, with $16.5 million, & this Dolphins QB, with $11.7 million, led the NFL in total earnings",
+        "value": 300,
+        "airdate": "1997-07-11T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15174,
+        "answer": "(1 of) Jack Murphy, L.A. Coliseum, the Rose Bowl & Stanford Stadium",
+        "question": "1 of 4 California stadiums that have hosted a Super Bowl",
+        "value": 400,
+        "airdate": "1997-07-11T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15180,
+        "answer": "Ted Williams",
+        "question": "In 1941 this Red Sox star led the major leagues in both batting average, .406, & home runs, 37",
+        "value": 500,
+        "airdate": "1997-07-11T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15729,
+        "answer": "Martina Navratilova",
+        "question": "This Czech-born tennis star was the world's No. 1 ranked women's player 7 times, 1978-79 & 1982-86",
+        "value": 100,
+        "airdate": "1997-06-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15735,
+        "answer": "Dallas Cowboys",
+        "question": "In 1996 this Barry Switzer-coached team won a record fifth straight NFC East division title",
+        "value": 200,
+        "airdate": "1997-06-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15741,
+        "answer": "Kareem Abdul-Jabbar & Magic Johnson",
+        "question": "1 of 2 L.A. Lakers players to win the NBA's regular season MVP award",
+        "value": 300,
+        "airdate": "1997-06-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15747,
+        "answer": "Brazil",
+        "question": "On July 17, 1994 this nation won a record fourth World Cup soccer title by beating Italy, 3-2 on penalty kicks",
+        "value": 400,
+        "airdate": "1997-06-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15753,
+        "answer": "Danny Wuerffel",
+        "question": "This Florida quarterback won the Heisman Trophy in 1996, 30 years after his coach Steve Spurrier won it",
+        "value": 500,
+        "airdate": "1997-06-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15846,
+        "answer": "Beach Volleyball",
+        "question": "In 1996 Kent Steffes & Karch Kiraly won the first gold medal ever presented in this type of volleyball",
+        "value": 100,
+        "airdate": "1997-06-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15852,
+        "answer": "New York Yankees",
+        "question": "This team's John Wetteland was named MVP of the 1996 World Series for saving all 4 wins",
+        "value": 200,
+        "airdate": "1997-06-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15858,
+        "answer": "Mario Lemieux",
+        "question": "Only Wayne Gretzky & this Penguins star have scored over 190 points in an NHL season",
+        "value": 300,
+        "airdate": "1997-06-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15864,
+        "answer": "golf",
+        "question": "In 1996 Johnny Miller was voted into this sport's Hall of Fame",
+        "value": 400,
+        "airdate": "1997-06-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 15870,
+        "answer": "Jimmie Johnson",
+        "question": "This Dolphins coach has a yacht named Three Rings for his 2 Super Bowl titles & 1 college championship",
+        "value": 500,
+        "airdate": "1997-06-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 16237,
+        "answer": "Skiing",
+        "question": "Downhill is the most popular form of this sport, but many prefer cross-country",
+        "value": 100,
+        "airdate": "1997-05-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 16243,
+        "answer": "Los Angeles Dodgers",
+        "question": "Mike Piazza's new $15 million contract with this L.A. team makes him the highest-paid baseball catcher",
+        "value": 200,
+        "airdate": "1997-05-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 16249,
+        "answer": "Pete Sampras",
+        "question": "In 1997 this Greek-American won his second Australian Open title",
+        "value": 300,
+        "airdate": "1997-05-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 16255,
+        "answer": "Mike Ditka",
+        "question": "In 1997 this commentator & former Bears coach was named head coach of the New Orleans Saints",
+        "value": 400,
+        "airdate": "1997-05-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 16261,
+        "answer": "Greg LeMond",
+        "question": "This American cyclist who retired in 1994 was the first non-European to win the Tour de France",
+        "value": 500,
+        "airdate": "1997-05-22T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17558,
+        "answer": "Los Angeles Dodgers",
+        "question": "Tommy Lasorda managed this team to 4 National League pennants & 2 World Series championships",
+        "value": 100,
+        "airdate": "1997-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17564,
+        "answer": "Basketball",
+        "question": "The Vancouver Grizzlies & the Toronto Raptors are the newest franchises in this professional sport",
+        "value": 200,
+        "airdate": "1997-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17570,
+        "answer": "Buffalo",
+        "question": "NHL teams that have moved to new, luxury box-filled arenas include the Boston Bruins & this city's Sabres",
+        "value": 300,
+        "airdate": "1997-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17576,
+        "answer": "Lou Holtz",
+        "question": "On November 19, 1996, he announced his retirement as Notre Dame football coach after an 11-year stint",
+        "value": 400,
+        "airdate": "1997-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17582,
+        "answer": "Ryder Cup",
+        "question": "This golfing cup was presented by & named for a British seed merchant & was first awarded in 1927",
+        "value": 500,
+        "airdate": "1997-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17798,
+        "answer": "Browns",
+        "question": "In 1957 this Cleveland team's Lou Groza became the first to lead the NFL in scoring without a touchdown",
+        "value": 100,
+        "airdate": "1997-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17804,
+        "answer": "Cricket",
+        "question": "Fielding positions in this British game include wicketkeeper, square leg & gully",
+        "value": 200,
+        "airdate": "1997-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17810,
+        "answer": "Denver",
+        "question": "In 1995 the NHL's Quebec Nordiques moved to this city & became the Colorado Avalanche",
+        "value": 300,
+        "airdate": "1997-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17816,
+        "answer": "Hakeem Olajuwon",
+        "question": "This Houston Rockets center won the NBA's Most Valuable Player award in 1994",
+        "value": 400,
+        "airdate": "1997-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17822,
+        "answer": "Bowling",
+        "question": "With 30 tournament wins, Lisa Wagner is the women's career leader in this sport",
+        "value": 500,
+        "airdate": "1997-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17858,
+        "answer": "Goalkeeper",
+        "question": "In soccer only this player can touch the ball with his hands",
+        "value": 100,
+        "airdate": "1997-02-28T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17864,
+        "answer": "Blue Jays",
+        "question": "This Toronto baseball club chose its name from more than 4,000 submitted by fans",
+        "value": 200,
+        "airdate": "1997-02-28T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17870,
+        "answer": "New Jersey Devils",
+        "question": "This New Jersey hockey team, Stanley Cup winners in 1995, didn't make the playoffs in 1996",
+        "value": 300,
+        "airdate": "1997-02-28T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17876,
+        "answer": "Bonnie Blair",
+        "question": "At the 1994 Olympics, this U.S. woman speed skater surpassed Eric Heiden's medal total",
+        "value": 400,
+        "airdate": "1997-02-28T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 17882,
+        "answer": "Syracuse",
+        "question": "This university's Orangemen routed Clemson 41-0 in the Jan. 1, 1996 Gator Bowl",
+        "value": 500,
+        "airdate": "1997-02-28T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18426,
+        "answer": "Michael Jordan",
+        "question": "With a 1996-97 salary of $30 million, he's the NBA's highest-paid player",
+        "value": 100,
+        "airdate": "1997-02-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18432,
+        "answer": "Evander Holyfield",
+        "question": "On November 9, 1996 he beat Mike Tyson to win the heavyweight boxing title for the third time",
+        "value": 200,
+        "airdate": "1997-02-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18438,
+        "answer": "University of Florida",
+        "question": "In the 1997 Sugar Bowl, this team won its 1st national football title by defeating Florida State, 52-20",
+        "value": 300,
+        "airdate": "1997-02-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18444,
+        "answer": "Tiger Woods",
+        "question": "In his first 2 months on the pro golf tour in 1996, this 20-year-old won almost $800,000",
+        "value": 400,
+        "airdate": "1997-02-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18450,
+        "answer": "Los Angeles Dodgers",
+        "question": "The last 5 NL Rookies of the Year have been members of this west coast team",
+        "value": 500,
+        "airdate": "1997-02-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18816,
+        "answer": "Earvin \"Magic\" Johnson",
+        "question": "This Lakers star won a 1992 Grammy for the best spoken word album:  \"What You Can Do To Avoid AIDS\"",
+        "value": 100,
+        "airdate": "1997-01-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18822,
+        "answer": "New York Yankees",
+        "question": "In the 24 seasons he's owned this team, George Steinbrenner has changed managers 20 times",
+        "value": 200,
+        "airdate": "1997-01-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18828,
+        "answer": "Joe Louis",
+        "question": "Between 1937 & 1950, this American boxer fought in 27 heavyweight title fights, winning 26",
+        "value": 300,
+        "airdate": "1997-01-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18834,
+        "answer": "New Zealand",
+        "question": "In May 1995 this country's Black Magic yacht beat the Young America to win the America's Cup",
+        "value": 400,
+        "airdate": "1997-01-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 18840,
+        "answer": "Figure Skating",
+        "question": "The backwards one-revolution jump in this sport is named for Ulrich Salchow",
+        "value": 500,
+        "airdate": "1997-01-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 19237,
+        "answer": "Michael Jordan",
+        "question": "He's the only Chicago Bulls player named Rookie of the Year",
+        "value": 100,
+        "airdate": "1996-12-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 19243,
+        "answer": "The Indianapolis 500",
+        "question": "On May 30, 1976 Johnny Rutherford won this rain-shortened auto race after driving only 255 miles",
+        "value": 200,
+        "airdate": "1996-12-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 19249,
+        "answer": "New Jersey Devils",
+        "question": "In 1995 this New Jersey team won its first Stanley Cup by sweeping the Detroit Red Wings in 4 games",
+        "value": 300,
+        "airdate": "1996-12-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 19255,
+        "answer": "Boston Red Sox",
+        "question": "This American League team was once known as the Plymouth Rocks",
+        "value": 400,
+        "airdate": "1996-12-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 19261,
+        "answer": "The Belmont Stakes",
+        "question": "At 1 1/2 miles, this third leg of horse racing's Triple Crown is the longest of the 3 races",
+        "value": 500,
+        "airdate": "1996-12-25T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20199,
+        "answer": "Chicago",
+        "question": "On April 16, 1996, this city's Bulls became the first NBA team to win 70 games in a season",
+        "value": 100,
+        "airdate": "1996-10-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20205,
+        "answer": "Don Shula",
+        "question": "Before becoming coach of the Miami Dolphins in 1970, he coached the Baltimore Colts for 7 seasons",
+        "value": 200,
+        "airdate": "1996-10-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20211,
+        "answer": "Mike Tyson",
+        "question": "The only fight this heavyweight boxer has lost was his 1990 title bout with Buster Douglas",
+        "value": 300,
+        "airdate": "1996-10-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20217,
+        "answer": "Nicklaus",
+        "question": "In the 1970s this golfer was the PGA's leading money winner 5 times",
+        "value": 400,
+        "airdate": "1996-10-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20223,
+        "answer": "auto racing",
+        "question": "Janet Guthrie is the only representative from this sport in the Int'l Women's Sports Hall of Fame",
+        "value": 500,
+        "airdate": "1996-10-14T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20796,
+        "answer": "Chris Evert",
+        "question": "This Florida-born women's great who retired in 1989 wrote the World Book Encyclopedia article on tennis",
+        "value": 100,
+        "airdate": "1998-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20802,
+        "answer": "Doug Flutie",
+        "question": "In 1984 this quarterback became the first Boston College player to win the Heisman Trophy",
+        "value": 200,
+        "airdate": "1998-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20808,
+        "answer": "Oriole Park at Camden Yards",
+        "question": "Babe Ruth's father once operated a saloon on what is now center field in this Baltimore ballpark",
+        "value": 300,
+        "airdate": "1998-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 20814,
+        "answer": "Silver Charm",
+        "question": "In the 1997 Belmont Stakes, Touch Gold dashed this \"charmed\" horse's Triple Crown bid",
+        "value": 400,
+        "airdate": "1998-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 21219,
+        "answer": "Indianapolis 500",
+        "question": "The Borg-Warner Trophy, a replica of which is awarded at this May auto race, is insured for $1 million",
+        "value": 100,
+        "airdate": "1998-06-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 21225,
+        "answer": "Dallas Cowboys",
+        "question": "Tom Landry coached this team to 270 wins during his 29-year career",
+        "value": 200,
+        "airdate": "1998-06-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 21231,
+        "answer": "UCLA",
+        "question": "(Hi, I'm Dot Richardson)  I led this school's Bruins in hitting 3 consecutive years & was named NCAA Player of the Decade for the 1980s",
+        "value": null,
+        "airdate": "1998-06-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 21237,
+        "answer": "Carl Lewis",
+        "question": "Long jump rival Mike Powell reportedly called him \"The best track and field athlete ever\"",
+        "value": 400,
+        "airdate": "1998-06-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 21243,
+        "answer": "Coors Field (the home of the Colorado Rockies)",
+        "question": "A row of purple seats rings this ball park to mark a spot that's exactly 5,280 feet above sea level",
+        "value": 500,
+        "airdate": "1998-06-26T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 21998,
+        "answer": "Boston Celtics",
+        "question": "With 16, this team has won more NBA titles than any other",
+        "value": 100,
+        "airdate": "1998-05-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22004,
+        "answer": "Hockey",
+        "question": "Brothers Phil & Tony Esposito were both named to the hall of fame for this sport",
+        "value": 200,
+        "airdate": "1998-05-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22010,
+        "answer": "Reggie Jackson",
+        "question": "\"Angel From The Outfield\" seen here: (a.k.a. \"Mr. October\")",
+        "value": 300,
+        "airdate": "1998-05-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22016,
+        "answer": "Golf",
+        "question": "The Nabisco Dinah Shore is one of the 4 events making up the Grand Slam of this sport for women",
+        "value": 400,
+        "airdate": "1998-05-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22022,
+        "answer": "Steve Young",
+        "question": "This NFL quarterback is a great-great-great-grandson of Brigham Young",
+        "value": 500,
+        "airdate": "1998-05-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22595,
+        "answer": "Mark McGwire",
+        "question": "He hit 110 home runs in 1996 & 1997 -- more than any player in 2 straight seasons except Babe Ruth",
+        "value": 100,
+        "airdate": "1998-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22601,
+        "answer": "Mike Tyson",
+        "question": "Buster Douglas' 1990 knockout of this champ has been called the greatest heavyweight title upset",
+        "value": 200,
+        "airdate": "1998-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22607,
+        "answer": "St. Louis",
+        "question": "From 1977 to 1981, this NHL city's Blues played their home games in the Checkerdome",
+        "value": 300,
+        "airdate": "1998-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22613,
+        "answer": "Eric Heiden",
+        "question": "(Hi, I'm Jim Lampley)  Only 2 Americans have won 5 gold medals in the Winter Olympics: Bonnie Blair & this fellow speedskater",
+        "value": null,
+        "airdate": "1998-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 22619,
+        "answer": "Stanford",
+        "question": "Both John Elway & Jim Plunkett were NFL No. 1 draft choices from this university",
+        "value": 500,
+        "airdate": "1998-04-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 23619,
+        "answer": "Tour de France",
+        "question": "In 1997 this event began at Rouen with a 4 1/2 mile time trial called the \"Prologue\"",
+        "value": 100,
+        "airdate": "1998-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 23625,
+        "answer": "Hakeem Olajuwon",
+        "question": "Until 1991 this NBA star's name was listed as \"Akeem\" because the \"H\" is silent in his native language",
+        "value": 200,
+        "airdate": "1998-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 23631,
+        "answer": "Reggie Jackson",
+        "question": "Known as \"Mr. October\", he hit his 500th home run on Sept. 17, 1984, becoming the 13th player to do so",
+        "value": 300,
+        "airdate": "1998-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 23637,
+        "answer": "Mark Spitz",
+        "question": "At the 1972 Munich Olympics, he swam in 7 events, including relays, & won all in world record times",
+        "value": 400,
+        "airdate": "1998-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 23643,
+        "answer": "Black-eyed Susan",
+        "question": "In the Preakness, mums are painted to resemble this out-of-season \"bruised\" daisy on the winner's blanket",
+        "value": 500,
+        "airdate": "1998-03-06T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 24036,
+        "answer": "Tommy Lasorda",
+        "question": "This former Dodger manager threw out the first pitch in the Dodgers' 1997 opening game",
+        "value": 100,
+        "airdate": "1998-02-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 24042,
+        "answer": "Detroit Red Wings",
+        "question": "In 1997 this team won its first Stanley Cup in 42 years by completing a 4-game sweep of the Flyers",
+        "value": 200,
+        "airdate": "1998-02-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 24048,
+        "answer": "Dan Marino",
+        "question": "Only Fran Tarkenton & this Miami Dolphins quarterback have thrown over 300 career touchdown passes",
+        "value": 300,
+        "airdate": "1998-02-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 24054,
+        "answer": "Chris Evert",
+        "question": "On July 16, 1995 this American received her certificate of induction into the Int'l Tennis Hall Of Fame",
+        "value": 400,
+        "airdate": "1998-02-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 24060,
+        "answer": "gymnastics",
+        "question": "With 18, this sport's Larissa Latynina has more Olympic medals than any other person",
+        "value": 500,
+        "airdate": "1998-02-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 25926,
+        "answer": "2",
+        "question": "A little birdie told us an eagle is a score this many under par on one hole",
+        "value": 100,
+        "airdate": "1997-11-18T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 25932,
+        "answer": "Lou Gehrig",
+        "question": "He played in 2,130 consecutive games; no wonder he was the pride of the Yankees",
+        "value": 200,
+        "airdate": "1997-11-18T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 25938,
+        "answer": "Colt .45\\'s",
+        "question": "Prior to making Astros out of themselves, the Houston team thought they were \"big shots\" with this name",
+        "value": 300,
+        "airdate": "1997-11-18T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 25944,
+        "answer": "Hawks",
+        "question": "This Milwaukee NBA team moved to St. Louis in 1955 & then to Atlanta in 1968",
+        "value": 400,
+        "airdate": "1997-11-18T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 25950,
+        "answer": "John Henry",
+        "question": "This steel-driving thoroughbred retired in 1985 with career earnings of over $6.5 million",
+        "value": 500,
+        "airdate": "1997-11-18T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 26466,
+        "answer": "Tiger Woods",
+        "question": "On April 13, 1997 this 21-year-old golfer became the youngest to win the Masters",
+        "value": 100,
+        "airdate": "1997-10-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 26472,
+        "answer": "Minneapolis",
+        "question": "\"(Hi, I'm Nick Van Exel)  After winning 5 NBA championships, the Lakers moved to Los Angeles in 1960 from this city\"",
+        "value": null,
+        "airdate": "1997-10-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 26478,
+        "answer": "Detroit Red Wings",
+        "question": "Gordie Howe's 1,687 games with this team is the most by a player on one team in the NHL",
+        "value": 300,
+        "airdate": "1997-10-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 26484,
+        "answer": "Bowling",
+        "question": "The Johnny Petraglia Open & the AMF Dick Weber Classic have been major tournaments in this sport",
+        "value": 400,
+        "airdate": "1997-10-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 26490,
+        "answer": "Bobsled",
+        "question": "This winter Olympic sport is contested in 2-man & 4-man events",
+        "value": 500,
+        "airdate": "1997-10-23T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 46628,
+        "answer": "Johnny Weissmuller",
+        "question": "At the 1924 Olympics he broke the 1-minute barrier in the 100-meter freestyle & he wasn't swinging on vines",
+        "value": 100,
+        "airdate": "2000-11-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 46634,
+        "answer": "Umpire",
+        "question": "In 1999 Nestor Chylak was the first of these inducted into the Baseball Hall of Fame since Bill McGowan in 1982",
+        "value": 200,
+        "airdate": "2000-11-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 46640,
+        "answer": "Emmitt Smith",
+        "question": "In 1994 this Dallas Cowboy scored 22 touchdowns; in 1995 he topped that with 25",
+        "value": 300,
+        "airdate": "2000-11-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 46646,
+        "answer": "Shot Put",
+        "question": "In 1993 Werner Gunther of Switzerland threw one of these 72 feet 1 inch",
+        "value": 400,
+        "airdate": "2000-11-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 46652,
+        "answer": "Steve Cauthen",
+        "question": "He was riding Affirmed in 1978 when he became the youngest jockey to win the Triple Crown",
+        "value": 500,
+        "airdate": "2000-11-03T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 47167,
+        "answer": "Mia Hamm",
+        "question": "On May 22, 1999 this American scored her 108th goal, becoming the all-time leading scorer in int'l soccer",
+        "value": 100,
+        "airdate": "2000-10-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 47173,
+        "answer": "Gale Sayers",
+        "question": "This fleet-footed Chicago Bear was named outstanding back in the Pro Bowl 3 times: 1967, 1968 & 1970",
+        "value": 200,
+        "airdate": "2000-10-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 47179,
+        "answer": "Milwaukee Bucks",
+        "question": "[Hi, I'm Kareem Abdul-Jabbar]  I won 6 NBA Most Valuable Player Awards during my career: 3 while playing with the Lakers & 3 with this team",
+        "value": 300,
+        "airdate": "2000-10-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 47185,
+        "answer": "Bob Gibson",
+        "question": "On Oct. 2, 1968 this Cardinal pitcher struck out 17 Detroit Tigers, a new World Series record",
+        "value": 400,
+        "airdate": "2000-10-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 47191,
+        "answer": "Jimmy Connors",
+        "question": "The top U.S. male tennis player of the 1970s, he's the only man to win more than 100 singles titles",
+        "value": 500,
+        "airdate": "2000-10-10T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 53707,
+        "answer": "golf",
+        "question": "Ben Crenshaw & Phil Mickelson are the only 3-time winners of this college sport's championship tournament",
+        "value": 200,
+        "airdate": "2003-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 53713,
+        "answer": "Tom Landry",
+        "question": "(I'm Hall of Fame running back Tony Dorsett)  This man was my coach for my first 11 seasons in the NFL",
+        "value": 400,
+        "airdate": "2003-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 53719,
+        "answer": "George Foreman",
+        "question": "In 1994, at age 45, he became heavyweight boxing champ again & was the AP's Male Athlete of the Year",
+        "value": 600,
+        "airdate": "2003-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 53725,
+        "answer": "John Heisman",
+        "question": "He was director of athletics at NYC's Downtown Athletic Club from 1928 to 1936",
+        "value": 800,
+        "airdate": "2003-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 53731,
+        "answer": "Mario Lemieux",
+        "question": "In the 1992-93 season this Pittsburgh Penguin missed 24 games but still won the NHL scoring title",
+        "value": 1000,
+        "airdate": "2003-03-19T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 59677,
+        "answer": "T-ball",
+        "question": "In this game, an entry sport to baseball, the batter hits the ball that rests atop a tube",
+        "value": 200,
+        "airdate": "2004-05-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 59683,
+        "answer": "the gutter",
+        "question": "(Sofia of the Clue Crew strolls down the lane at the Nat'l Bowling Stadium in Reno, NV--& screws up.) Oops--in bowling, it's the one place you don't wanna throw your ball",
+        "value": 400,
+        "airdate": "2004-05-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 59689,
+        "answer": "tennis",
+        "question": "It's the sport played professionally by Andre Agassi",
+        "value": 600,
+        "airdate": "2004-05-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 59695,
+        "answer": "soccer",
+        "question": "What the Europeans call association football, we call this",
+        "value": 800,
+        "airdate": "2004-05-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 59701,
+        "answer": "fore",
+        "question": "In golf it's the proper word to yell when your ball is headed toward another player",
+        "value": 1000,
+        "airdate": "2004-05-05T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": null
+      },
+      {
+        "id": 7094,
+        "answer": "Italy",
+        "question": "",
+        "value": null,
+        "airdate": "1990-01-15T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": 1
+      },
+      {
+        "id": 20820,
+        "answer": "Buffalo Sabres",
+        "question": "National Hockey League team whose logo is seen here:(knife through a \"B\")",
+        "value": 500,
+        "airdate": "1998-07-16T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": 1
+      },
+      {
+        "id": 564,
+        "answer": "<i>Baby Doll</i>",
+        "question": "",
+        "value": null,
+        "airdate": "1984-09-21T12:00:00.000Z",
+        "category_id": 42,
+        "game_id": null,
+        "invalid_count": 171
+      }
+    ]
+  }
+]
