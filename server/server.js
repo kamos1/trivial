@@ -1,17 +1,18 @@
 const express = require('express');
 const app = express();
-
+const path = require('path');
 const bodyParser = require('body-parser');
 const routes = require('./endpoints');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-app.set('port', process.env.PORT || 3000);
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('/', (req, res) => {
-  res.send('it worked')
+  res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
+
+app.set('port', process.env.PORT || 3000);
 
 app.use('/', routes);
 
