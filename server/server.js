@@ -6,6 +6,8 @@ const routes = require('./endpoints');
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
+const people = {}
+
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -19,6 +21,10 @@ app.use('/', routes);
 
 io.on('connection', function(socket){
   console.log('CONNECTED');
+  socket.emit('connect', 'userconnected')
+  socket.on('username', (username) => {
+    console.log(username);
+  })
 })
 
 http.listen(app.get('port'), () => {
