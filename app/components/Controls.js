@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Route } from 'react-router-dom';
-import { inputUsername } from '../socket-api.js'
+import { inputUsername } from '../socket-api.js';
+
 
 export default class Controls extends Component {
   constructor(){
@@ -11,13 +12,20 @@ export default class Controls extends Component {
     }
   }
 
+  handleClick () {
+    inputUsername(this.state.userName)
+    this.setState({ userName: '' })
+  }
+
+  handleUserInput (e) {
+    this.setState({ userName: e.target.value })
+  }
+
   render(){
     return(
       <section>
-        <input type='text' placeholder='enter your username' value={this.state.userName}/>
-        <input type='submit' onClick={() => {
-          inputUsername('Dave')
-        }}/>
+        <input type='text' placeholder='enter your username' value={this.state.userName} onChange={(e) => this.handleUserInput(e)} />
+        <input type='submit' onClick={() => this.handleClick()} />
       </section>
     )
   }

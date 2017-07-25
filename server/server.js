@@ -20,11 +20,14 @@ app.set('port', process.env.PORT || 3000);
 app.use('/', routes);
 
 io.on('connection', function(socket){
-  console.log('CONNECTED');
   socket.emit('connect', 'userconnected')
   socket.on('username', (username) => {
-    console.log(username);
+ 	 	socket.emit('newUser', 'please work')
+  	people[socket.id] = username
+  	console.log(people)
+
   })
+
 })
 
 http.listen(app.get('port'), () => {
