@@ -26,6 +26,9 @@ io.on('connection', function(socket){
     people[socket.id] = username
     console.log(people)
   })
+  socket.on('newQuestion', (clue, obj) => {
+  	io.emit('nextClue', clue, obj)
+  })
 
 })
 
