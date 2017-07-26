@@ -6,9 +6,10 @@ import openSocket from 'socket.io-client';
 const socket = openSocket('http://localhost:3000')
 
 export default class Game extends Component {
-	constructor() {
-		super()
+	constructor(props) {
+		super(props)
 		this.state = {
+			userName: '',
 			currentClue: {},
 			category: '',
 			userAnswer: '',
@@ -19,8 +20,9 @@ export default class Game extends Component {
 		socket.on('nextClue', (clue, obj) => {
 			this.setState({ currentClue: clue, category: obj.title })
 		})
-		socket.on('announceWinner', (person, answer) => {
-			this.setState({ status: person, displayAnswer: this.state.currentClue.answer})
+		socket.on('announceWinner', (obj) => {
+			console.log(obj)
+			this.setState({ status: obj.userName, displayAnswer: this.state.currentClue.answer})
 		})
 	}
 
@@ -42,18 +44,27 @@ export default class Game extends Component {
 		let clueAns = this.state.currentClue.answer.toLowerCase();
 		let percentage = userAns.length/clueAns.length
 		console.log(percentage);
-		
-		if(clueAns.includes(userAns) && percentage > .5){
-			this.setState({status: 'WINNER'});
-			socket.emit('checkWinner', userAns)
-		} else {
-			this.setState({status: 'LOSER'});
+
+		this.setUserName()
+		setTimeout(() => {
+			if(clueAns.includes(userAns) && percentage > .5){
+				this.setState({status: 'WINNER'});
+				socket.emit('checkWinner', {userName: this.state.userName, answer: userAns})
+			} else {
+				this.setState({status: 'LOSER'});
 		}
+
+		},250)
+		
 		this.displayAnswer();
 	}
 
 	displayAnswer(){
 		this.setState({displayAnswer: this.state.currentClue.answer})
+	}
+
+	setUserName() {
+		this.setState({ userName: this.props.currentUser })
 	}
 
 	render() {

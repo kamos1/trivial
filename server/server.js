@@ -6,9 +6,6 @@ const routes = require('./endpoints');
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
-const people = {}
-
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -23,17 +20,12 @@ io.on('connection', function(socket){
   socket.emit('connect', 'userconnected')
   socket.on('username', (username) => {
     io.emit('newUser', username)
-    people[socket.id] = username
-    // console.log(people)
   })
   socket.on('newQuestion', (clue, obj) => {
   	io.emit('nextClue', clue, obj)
   })
-  socket.on('checkWinner', (userAns) => {
-  	// console.log(people)
-  	console.log(socket.client.sockets.Socket.handshake)
-  	// console.log(socket.id)
-  	io.emit('announceWinner', people[socket.client.id], userAns)
+  socket.on('checkWinner', (obj) => {
+  	io.emit('announceWinner', obj)
   })
 })
 
