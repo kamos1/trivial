@@ -8,12 +8,17 @@ export default class Game extends Component {
 		this.state = {
 			currentClue: {},
 			category: '',
-			userAnswer: ''
+			userAnswer: '',
+			status: '',
+			displayAnswer: 'take a guess to see the correct answer'
 		}
 	}
 
 	componentWillMount() {
+		this.fetchQuestion();
+	}
 
+	fetchQuestion (){
 		fetch('/api/v1/category')
 			.then((res) => res.json())
 			.then((obj) => {
@@ -21,9 +26,20 @@ export default class Game extends Component {
 					.then((res) => res.json())
 					.then((clue) => this.setState({ currentClue: clue, category: obj.title }))
 			})
+	}
+
+	handleSubmit (){
+		if(this.state.userAnswer === this.state.currentClue.answer){
+			this.setState({status: 'WINNER'});
+		} else {
+			this.setState({status: 'LOSER'});
 		}
+		this.displayAnswer();
+	}
 
-
+	displayAnswer(){
+		this.setState({displayAnswer: this.state.currentClue.answer})
+	}
 
 	render() {
 		return(
@@ -31,10 +47,18 @@ export default class Game extends Component {
 				<section className='question'>
 					<p>Category: {this.state.category}</p>
 					<p>Clue: {this.state.currentClue.question}</p>
+					<p>You are a: {this.state.status}</p>
+					<p>The correct answer is: {this.state.displayAnswer}</p>
 				</section>
 				<div className='answer-append'></div>
-				<input type='text' className='user-answer' placeholder='Your Answer'/>
-				<input type='submit' className='answer-submit'/>
+				<input 	type='text'
+								className='user-answer'
+								placeholder='Your Answer'
+								value={this.state.userAnswer}
+								onChange={(e) => this.setState({userAnswer: e.target.value})}
+				/>
+				<input type='submit' className='answer-submit' onClick={(e) => this.handleSubmit(e)}/>
+				<button onClick={() => this.fetchQuestion()}>New Question</button>
 			</section>
 		)
 	}
