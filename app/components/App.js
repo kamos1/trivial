@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { Route } from 'react-router';
 import Controls from './Controls';
 import Game from './Game'
+import {Scoreboard} from './Scoreboard'
 import openSocket from 'socket.io-client';
 import display from '../socket-api';
 
@@ -25,12 +26,18 @@ export default class App extends Component {
     this.setState({ currentUser: name })
   }
 
+  setScore(obj, value=200) {
+    this.state.users[obj.userName] += value
+    this.setState({users: this.state.users})
+  }
+
 
   render(){
     return(
       <section>
         <Controls setUserName={this.setUserName.bind(this)}/>
-        <Game currentUser={this.state.currentUser}/>
+        <Game currentUser={this.state.currentUser} setScore={this.setScore.bind(this)}/>
+        <Scoreboard users={this.state.users}/>
       </section>
     )
   }
