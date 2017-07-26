@@ -57,7 +57,7 @@ export default class Game extends Component {
 								value={this.state.userAnswer}
 								onChange={(e) => this.setState({userAnswer: e.target.value})}
 				/>
-				<input type='submit' className='answer-submit' onClick={() => this.handleSubmit()}/>
+				<input type='submit' className='answer-submit' onClick={(e) => this.handleSubmit(e)}/>
 				<button onClick={() => this.fetchQuestion()}>New Question</button>
 			</section>
 		)
