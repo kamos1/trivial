@@ -17,15 +17,20 @@ app.set('port', process.env.PORT || 3000);
 app.use('/', routes);
 
 io.on('connection', function(socket){
-  socket.emit('connect', 'userconnected')
   socket.on('username', (username) => {
     io.emit('newUser', username)
   })
+
   socket.on('newQuestion', (clue, obj) => {
   	io.emit('nextClue', clue, obj)
   })
+
   socket.on('checkWinner', (obj) => {
-  	io.emit('announceWinner', obj)
+    io.emit('announceWinner', obj)
+  })
+
+  socket.on('wrong', (obj) => {
+  	io.emit('deduct', obj)
   })
 })
 

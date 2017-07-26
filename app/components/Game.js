@@ -20,8 +20,13 @@ export default class Game extends Component {
 		socket.on('nextClue', (clue, obj) => {
 			this.setState({ currentClue: clue, category: obj.title })
 		})
+
 		socket.on('announceWinner', (obj) => {
 			this.setState({ status: obj.userName, displayAnswer: this.state.currentClue.answer})
+			this.props.setScore(obj, this.state.currentClue.value)
+		})
+
+		socket.on('deduct', (obj) => {
 			this.props.setScore(obj, this.state.currentClue.value)
 		})
 	}
@@ -48,9 +53,11 @@ export default class Game extends Component {
 		setTimeout(() => {
 			if(clueAns.includes(userAns) && percentage > .5){
 				this.setState({status: 'WINNER'});
-				socket.emit('checkWinner', {userName: this.state.userName, answer: userAns})
+				socket.emit('checkWinner', {userName: this.state.userName, answer: 'correct'})
 			} else {
 				this.setState({status: 'LOSER'});
+				socket.emit('wrong', {userName: this.state.userName, answer: 'incorrect'})
+
 		}
 
 		},250)
