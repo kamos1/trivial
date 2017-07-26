@@ -21,8 +21,8 @@ export default class Game extends Component {
 			this.setState({ currentClue: clue, category: obj.title })
 		})
 		socket.on('announceWinner', (obj) => {
-			console.log(obj)
 			this.setState({ status: obj.userName, displayAnswer: this.state.currentClue.answer})
+			this.props.setScore(obj, this.state.currentClue.value)
 		})
 	}
 
@@ -43,7 +43,6 @@ export default class Game extends Component {
 		let userAns = this.state.userAnswer.toLowerCase();
 		let clueAns = this.state.currentClue.answer.toLowerCase();
 		let percentage = userAns.length/clueAns.length
-		console.log(percentage);
 
 		this.setUserName()
 		setTimeout(() => {
