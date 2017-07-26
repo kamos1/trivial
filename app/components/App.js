@@ -12,7 +12,8 @@ export default class App extends Component {
   constructor(){
     super()
     this.state = {
-      users: {}
+      users: {},
+      currentUser: ''
     }
 
     socket.on('newUser', (username) => {
@@ -20,14 +21,16 @@ export default class App extends Component {
     })
   }
 
-
+  setUserName(name) {
+    this.setState({ currentUser: name })
+  }
 
 
   render(){
     return(
       <section>
-        <Controls />
-        <Game />
+        <Controls setUserName={this.setUserName.bind(this)}/>
+        <Game currentUser={this.state.currentUser}/>
       </section>
     )
   }
