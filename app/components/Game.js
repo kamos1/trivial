@@ -12,10 +12,17 @@ export default class Game extends Component {
 	}
 
 	componentWillMount() {
-		fetch('/api/v1/category/sports')
-		.then((res) => res.json())
-		.then((clue) => this.setState({ currentClue: clue }))
-	}
+
+		fetch('/api/v1/category')
+			.then((res) => res.json())
+			.then((title) => {
+				fetch(`/api/v1/category/${obj.title}`)
+					.then((res) => res.json())
+					.then((clue) => this.setState({ currentClue: clue }))
+			})
+		}
+
+
 
 	render() {
 		return(

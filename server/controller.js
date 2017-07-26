@@ -17,6 +17,20 @@ const getCategory = (req, res) => {
     .catch(error => res.status(500).json({error}))
   }
 
+const selectCategory = (req, res) => {
+  database('categories').select()
+    .then(list => {
+      if(list.length) {
+        const randomCategory = list[Math.floor((Math.random() * list.length))]
+        res.status(200).json(randomCategory)
+      } else {
+        res.status(404).json({error: 'There was an error retrieving your category!'})
+      }
+    })
+    .catch(error => res.status(500).json({error}))
+}
+
 module.exports = {
-  getCategory
+  getCategory,
+  selectCategory
 }
