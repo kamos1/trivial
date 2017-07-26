@@ -50,5 +50,16 @@ describe('API route', () => {
 		})
 	})
 
+	it('should return a random category', (done) => {
+		chai.request(server)
+		.get('/api/v1/category')
+		.end((error, res) => {
+			res.should.have.status(200);
+			res.should.be.json;
+			res.body.should.be.a('object');
+			res.body.should.have.property('id');
+			res.body.should.have.property('title');
+			done();
+		})
+	})
 })
-
