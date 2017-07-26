@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Route } from 'react-router-dom';
+import openSocket from 'socket.io-client';
+
+const socket = openSocket('http://localhost:3000')
 
 export default class Game extends Component {
 	constructor() {
@@ -12,10 +15,10 @@ export default class Game extends Component {
 			status: '',
 			displayAnswer: 'take a guess to see the correct answer'
 		}
-	}
 
-	componentWillMount() {
-		this.fetchQuestion();
+		socket.on('nextClue', (clue, obj) => {
+			this.setState({ currentClue: clue, category: obj.title })
+		})
 	}
 
 	fetchQuestion (){
@@ -24,7 +27,10 @@ export default class Game extends Component {
 			.then((obj) => {
 				fetch(`/api/v1/category/${obj.title}`)
 					.then((res) => res.json())
-					.then((clue) => this.setState({ currentClue: clue, category: obj.title }))
+					.then((clue) => {
+						this.setState({ currentClue: clue, category: obj.title })
+						socket.emit('newQuestion', clue, obj)
+					})
 			})
 	}
 
