@@ -7,6 +7,7 @@ export default class Game extends Component {
 		super()
 		this.state = {
 			currentClue: {},
+			category: '',
 			userAnswer: ''
 		}
 	}
@@ -18,7 +19,7 @@ export default class Game extends Component {
 			.then((obj) => {
 				fetch(`/api/v1/category/${obj.title}`)
 					.then((res) => res.json())
-					.then((clue) => this.setState({ currentClue: clue }))
+					.then((clue) => this.setState({ currentClue: clue, category: obj.title }))
 			})
 		}
 
@@ -28,8 +29,8 @@ export default class Game extends Component {
 		return(
 			<section>
 				<section className='question'>
-					<p>{this.state.currentClue.category}</p>
-					<p>{this.state.currentClue.question}</p>
+					<p>Category: {this.state.category}</p>
+					<p>Clue: {this.state.currentClue.question}</p>
 				</section>
 				<div className='answer-append'></div>
 				<input type='text' className='user-answer' placeholder='Your Answer'/>
