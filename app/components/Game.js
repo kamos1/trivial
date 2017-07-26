@@ -29,7 +29,11 @@ export default class Game extends Component {
 	}
 
 	handleSubmit (){
-		if(this.state.userAnswer === this.state.currentClue.answer){
+		let userAns = this.state.userAnswer.toLowerCase();
+		let clueAns = this.state.currentClue.answer.toLowerCase();
+		let percentage = userAns.length/clueAns.length
+		console.log(percentage);
+		if(clueAns.includes(userAns) && percentage > .5){
 			this.setState({status: 'WINNER'});
 		} else {
 			this.setState({status: 'LOSER'});
