@@ -22,10 +22,9 @@ app.use('/', routes);
 io.on('connection', function(socket){
   socket.emit('connect', 'userconnected')
   socket.on('username', (username) => {
- 	 	socket.emit('newUser', 'please work')
-  	people[socket.id] = username
-  	console.log(people)
-
+    io.emit('newUser', username)
+    people[socket.id] = username
+    console.log(people)
   })
 
 })
