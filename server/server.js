@@ -24,12 +24,17 @@ io.on('connection', function(socket){
   socket.on('username', (username) => {
     io.emit('newUser', username)
     people[socket.id] = username
-    console.log(people)
+    // console.log(people)
   })
   socket.on('newQuestion', (clue, obj) => {
   	io.emit('nextClue', clue, obj)
   })
-
+  socket.on('checkWinner', (userAns) => {
+  	// console.log(people)
+  	console.log(socket.client.sockets.Socket.handshake)
+  	// console.log(socket.id)
+  	io.emit('announceWinner', people[socket.client.id], userAns)
+  })
 })
 
 http.listen(app.get('port'), () => {

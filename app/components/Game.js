@@ -13,11 +13,14 @@ export default class Game extends Component {
 			category: '',
 			userAnswer: '',
 			status: '',
-			displayAnswer: 'take a guess to see the correct answer'
+			displayAnswer: 'take a guess to see the correct answer',
 		}
 
 		socket.on('nextClue', (clue, obj) => {
 			this.setState({ currentClue: clue, category: obj.title })
+		})
+		socket.on('announceWinner', (person, answer) => {
+			this.setState({ status: person, displayAnswer: this.state.currentClue.answer})
 		})
 	}
 
@@ -39,8 +42,10 @@ export default class Game extends Component {
 		let clueAns = this.state.currentClue.answer.toLowerCase();
 		let percentage = userAns.length/clueAns.length
 		console.log(percentage);
+		
 		if(clueAns.includes(userAns) && percentage > .5){
 			this.setState({status: 'WINNER'});
+			socket.emit('checkWinner', userAns)
 		} else {
 			this.setState({status: 'LOSER'});
 		}
@@ -55,9 +60,9 @@ export default class Game extends Component {
 		return(
 			<section>
 				<section className='question'>
-					<p>Category: {this.state.category}</p>
+					<p>Category: {this.state.category.toUpperCase()}</p>
 					<p>Clue: {this.state.currentClue.question}</p>
-					<p>You are a: {this.state.status}</p>
+					<p>{this.state.status}</p>
 					<p>The correct answer is: {this.state.displayAnswer}</p>
 				</section>
 				<div className='answer-append'></div>
