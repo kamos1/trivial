@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom';
 import Controls from './Controls';
 import Game from './Game'
 import { Scoreboard } from './Scoreboard'
+import { Navigation } from './Navigation'
 import openSocket from 'socket.io-client';
 import display from '../socket-api';
 
@@ -40,6 +41,7 @@ export default class App extends Component {
   render(){
     return(
       <section>
+        <Navigation />
         <Route exact path='/' render={({ history }) => (
             <Controls history={ history } setUserName={this.setUserName.bind(this)}/>
         )}/>
