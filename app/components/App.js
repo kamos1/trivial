@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { Route } from 'react-router';
+import { Route } from 'react-router-dom';
 import Controls from './Controls';
 import Game from './Game'
 import { Scoreboard } from './Scoreboard'
@@ -32,7 +32,7 @@ export default class App extends Component {
       this.setState({users: this.state.users})
     } else {
       this.state.users[obj.userName] -= value
-      this.setState({users: this.state.users})  
+      this.setState({users: this.state.users})
     }
   }
 
@@ -40,9 +40,15 @@ export default class App extends Component {
   render(){
     return(
       <section>
-        <Controls setUserName={this.setUserName.bind(this)}/>
-        <Game currentUser={this.state.currentUser} setScore={this.setScore.bind(this)}/>
-        <Scoreboard users={this.state.users}/>
+        <Route exact path='/' render={({ history }) => (
+            <Controls history={ history } setUserName={this.setUserName.bind(this)}/>
+        )}/>
+        <Route exact path='/game' render={({ history }) => (
+          <div>
+            <Game history={ history } currentUser={this.state.currentUser} setScore={this.setScore.bind(this)}/>
+            <Scoreboard history={ history } users={this.state.users}/>
+          </div>
+        )}/>
       </section>
     )
   }

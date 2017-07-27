@@ -16,6 +16,7 @@ export default class Controls extends Component {
     this.props.setUserName(this.state.userName)
     inputUsername(this.state.userName)
     this.setState({ userName: '' })
+    this.props.history.replace('/game')
   }
 
   handleUserInput (e) {
