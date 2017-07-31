@@ -23,7 +23,7 @@ io.on('connection', function(socket){
   })
 
   socket.on('newQuestion', (clue, obj) => {
-  	io.emit('nextClue', clue, obj)
+  	io.emit('nextClue', clue, obj);
   })
 
   socket.on('checkWinner', (obj) => {
@@ -31,11 +31,15 @@ io.on('connection', function(socket){
   })
 
   socket.on('wrong', (obj) => {
-  	io.emit('deduct', obj)
+  	io.emit('deduct', obj);
   })
 })
 
 http.listen(app.get('port'), () => {
+  console.log('listening on a port')
+})
+
+app.listen(app.get('port'), () => {
   console.log('listening on a port')
 })
 
