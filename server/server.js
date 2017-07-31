@@ -18,6 +18,7 @@ app.set('port', process.env.PORT || 3000);
 app.use('/', routes);
 
 io.on('connection', function(socket){
+  io.emit('works', 'got it')
   socket.on('username', (username) => {
     io.emit('newUser', username)
   })

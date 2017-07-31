@@ -8,9 +8,10 @@ import { Navigation } from './Navigation'
 import openSocket from 'socket.io-client';
 import display from '../socket-api';
 
-const socket = openSocket(process.env.PORT || 'http://localhost:8081')
-console.log(process.env.PORT)
-
+// const socket = openSocket(process.env.PORT || 'http://localhost:8081')
+ const socket = io();
+ console.log(socket)
+ 
 export default class App extends Component {
   constructor(){
     super()
@@ -18,6 +19,10 @@ export default class App extends Component {
       users: {},
       currentUser: ''
     }
+
+    socket.on('works', (msg) => {
+      console.log(msg)
+    })
 
     socket.on('newUser', (username) => {
       this.setState({ users: Object.assign({}, this.state.users, {[username]: 0}) })
