@@ -8,9 +8,9 @@ import { Navigation } from './Navigation'
 import openSocket from 'socket.io-client';
 import display from '../socket-api';
 
-// const socket = openSocket(process.env.PORT || 'http://localhost:8081')
- const socket = io();
- console.log(socket)
+const socket = openSocket(process.env.PORT || 'http://localhost:8081')
+ // const socket = io();
+ // console.log(socket)
  
 export default class App extends Component {
   constructor(){
