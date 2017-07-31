@@ -61,7 +61,7 @@ export default class Game extends Component {
 		}
 
 		},250)
-		
+
 		this.displayAnswer();
 	}
 
@@ -75,22 +75,26 @@ export default class Game extends Component {
 
 	render() {
 		return(
-			<section>
-				<section className='question'>
-					<p>Category: {this.state.category.toUpperCase()}</p>
-					<p>Clue: {this.state.currentClue.question}</p>
-					<p>{this.state.status}</p>
-					<p>The correct answer is: {this.state.displayAnswer}</p>
+			<section id='game-container'>
+				<section className='question-wrapper'>
+					<section className='question-card'>
+						<p>Category: {this.state.category.toUpperCase()}</p>
+						<p>Clue: {this.state.currentClue.question}</p>
+						<p>{this.state.status}</p>
+						<p>The correct answer is: {this.state.displayAnswer}</p>
+					</section>
 				</section>
 				<div className='answer-append'></div>
-				<input 	type='text'
-								className='user-answer'
-								placeholder='Your Answer'
-								value={this.state.userAnswer}
-								onChange={(e) => this.setState({userAnswer: e.target.value})}
-				/>
-				<input type='submit' className='answer-submit' onClick={(e) => this.handleSubmit(e)}/>
-				<button onClick={() => this.fetchQuestion()}>New Question</button>
+				<section className='submission-wrapper'>
+					<input 	type='text'
+						className='user-answer'
+						placeholder='Your Answer'
+						value={this.state.userAnswer}
+						onChange={(e) => this.setState({userAnswer: e.target.value})}
+					/>
+					<input type='submit' className='answer-submit' onClick={(e) => this.handleSubmit(e)}/>
+					<button className='new-question-btn' onClick={() => this.fetchQuestion()}>New Question</button>
+				</section>
 			</section>
 		)
 	}
