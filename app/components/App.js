@@ -9,6 +9,7 @@ import openSocket from 'socket.io-client';
 import display from '../socket-api';
 
 const socket = openSocket(process.env.PORT || 'http://localhost:8081')
+console.log(process.env.PORT)
 
 export default class App extends Component {
   constructor(){
