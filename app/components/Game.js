@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Route } from 'react-router-dom';
-import openSocket from 'socket.io-client';
+import io from 'socket.io-client';
 
-const socket = openSocket('http://localhost:3000')
+const socket = io();
 
 export default class Game extends Component {
 	constructor(props) {

@@ -6,11 +6,9 @@ import Game from './Game'
 import { Scoreboard } from './Scoreboard'
 import { Navigation } from './Navigation'
 import io from 'socket.io-client';
-// import display from '../socket-api';
-// import server from '../../server/server'
-// import socket from 'socket.io'
-// const socket = require('socket.io')
+
 const socket = io();
+
 export default class App extends Component {
   constructor(){
     super()
@@ -20,7 +18,7 @@ export default class App extends Component {
     }
 
     socket.on('works', (msg) => {
-      console.log(msg)
+      console.log(msg);
     })
 
     socket.on('newUser', (username) => {

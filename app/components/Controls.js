@@ -12,8 +12,6 @@ export default class Controls extends Component {
     }
   }
 
-  
-
   handleClick () {
     this.props.setUserName(this.state.userName)
     inputUsername(this.state.userName)

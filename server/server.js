@@ -6,9 +6,6 @@ const routes = require('./endpoints');
 const http = require('http').Server(app);
 const io = require('socket.io')(http)
 
-// const socketIO = require('socket.io')
-// const io = socketIO(http)
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -21,13 +18,12 @@ app.set('port', process.env.PORT || 3000);
 app.use('/', routes);
 
 io.on('connection', function(socket){
-  io.send('works', 'got it')
   socket.on('username', (username) => {
     io.emit('newUser', username)
   })
 
   socket.on('newQuestion', (clue, obj) => {
-  	io.emit('nextClue', clue, obj);
+    io.emit('nextClue', clue, obj);
   })
 
   socket.on('checkWinner', (obj) => {
@@ -35,12 +31,12 @@ io.on('connection', function(socket){
   })
 
   socket.on('wrong', (obj) => {
-  	io.emit('deduct', obj);
+    io.emit('deduct', obj);
   })
 })
 
 http.listen(app.get('port'), () => {
-  console.log('listening on a port')
+  console.log('listening on a port');
 })
 
 module.exports = app;
