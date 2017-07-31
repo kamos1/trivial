@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client'
-const socket = openSocket(process.env.PORT)
+const socket = openSocket(process.env.PORT || 'http://localhost:3000')
 
 
 export const inputUsername = (username) => {
