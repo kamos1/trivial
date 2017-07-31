@@ -1,2 +1,13 @@
 @import './variables.scss';
 @import './app.scss';
+@import './controls.scss';
+@import './navigation.scss';
+
+html,
+body {
+  height: auto;
+  width: 100%;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  min-width: 320px;
+}

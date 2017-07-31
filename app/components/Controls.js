@@ -25,9 +25,11 @@ export default class Controls extends Component {
 
   render(){
     return(
-      <section>
-        <input type='text' placeholder='enter your username' value={this.state.userName} onChange={(e) => this.handleUserInput(e)} />
-        <input type='submit' onClick={() => this.handleClick()} />
+      <section id='controls'>
+        <section id='controls-wrapper'>
+          <input id='input-field' type='text' placeholder='Enter Your Username' value={this.state.userName} onChange={(e) => this.handleUserInput(e)} />
+          <input id='submit-btn' type='submit' onClick={() => this.handleClick()} />
+        </section>
       </section>
     )
   }

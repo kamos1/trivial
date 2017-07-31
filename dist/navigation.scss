@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+#navigation-wrapper {
+  height: 125px;
+  width: 100%;
+  background: $dark-blue;
+  display: flex;
+  align-items: center;
+}
+
+#navigation-wrapper h1 {
+  font-weight: 100;
+  font-size: 3em;
+  margin-left: 25px;
+}
+
+#logo {
+  height: 75px;
+  width: 75px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./images/logo.svg');
+  background-size: cover;
+}

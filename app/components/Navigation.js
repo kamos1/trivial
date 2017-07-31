@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Navigation = () => {
   return(
-    <section>
-      <div>Logo</div>
+    <section id='navigation-wrapper'>
+      <div id='logo'></div>
       <h1>Trivial</h1>
     </section>
   )
