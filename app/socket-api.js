@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client'
-const socket = openSocket('https://trivial123.herokuapp.com/' || 'http://localhost:3000')
+const socket = openSocket(process.env.PORT || 'http://localhost:3000')
 
 
 export const inputUsername = (username) => {
