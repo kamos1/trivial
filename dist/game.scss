@@ -1,0 +1,57 @@
+@import './variables';
+
+#game-container {
+  height: 420px;
+  width: 100%;
+  background: $blue-grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  align-items: center;
+}
+
+.question-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: $primary-color;
+  border: 1px solid $dark-grey;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px $dark-grey;
+  height: 100%;
+  width: 400px;
+}
+
+.submission-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:10%;
+}
+
+.user-answer {
+  height: 80%;
+  width: 70%;
+  border: none;
+}
+
+.answer-submit {
+  height: 85%;
+  width: 15%;
+  border: none;
+}
+
+.new-question-btn {
+  height: 85%;
+  width: 15%;
+  border: none
+}
