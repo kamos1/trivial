@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const routes = require('./endpoints');
 const http = require('http').Server(app);
-const io = require('socket.io')(http);
+const io = require('socket.io')(http)
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -23,7 +23,7 @@ io.on('connection', function(socket){
   })
 
   socket.on('newQuestion', (clue, obj) => {
-  	io.emit('nextClue', clue, obj)
+    io.emit('nextClue', clue, obj);
   })
 
   socket.on('checkWinner', (obj) => {
@@ -31,12 +31,12 @@ io.on('connection', function(socket){
   })
 
   socket.on('wrong', (obj) => {
-  	io.emit('deduct', obj)
+    io.emit('deduct', obj);
   })
 })
 
 http.listen(app.get('port'), () => {
-  console.log('listening on a port')
+  console.log('listening on a port');
 })
 
 module.exports = app;

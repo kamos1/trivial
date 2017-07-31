@@ -7,7 +7,7 @@
     "build": "webpack --config ./webpack.deployment.config.js",
     "build-dev": "webpack --config ./webpack.config.js",
     "dev": "webpack-dev-server --hot --inline",
-    "start": "npm run build && node server/server.js",
+    "start": "npm run build-dev && node server/server.js",
     "test": "NODE_ENV=test mocha"
   },
   "dependencies": {
@@ -53,7 +53,8 @@
     "url-loader": "^0.5.9",
     "webpack-dev-middleware": "^1.10.2",
     "webpack-dev-server": "^1.14.1",
-    "webpack-hot-middleware": "^2.18.0"
+    "webpack-hot-middleware": "^2.18.0",
+    "ws": "^3.1.0"
   },
   "keywords": [],
   "author": "",

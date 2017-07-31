@@ -5,10 +5,9 @@ import Controls from './Controls';
 import Game from './Game'
 import { Scoreboard } from './Scoreboard'
 import { Navigation } from './Navigation'
-import openSocket from 'socket.io-client';
-import display from '../socket-api';
+import io from 'socket.io-client';
 
-const socket = openSocket('http://localhost:3000')
+const socket = io();
 
 export default class App extends Component {
   constructor(){
@@ -17,6 +16,10 @@ export default class App extends Component {
       users: {},
       currentUser: ''
     }
+
+    socket.on('works', (msg) => {
+      console.log(msg);
+    })
 
     socket.on('newUser', (username) => {
       this.setState({ users: Object.assign({}, this.state.users, {[username]: 0}) })
