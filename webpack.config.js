@@ -10,7 +10,8 @@ module.exports = {
       { test: /\.js?$/, loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.css$/, loader: 'style-loader!css-loader' },
       { test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
-      { test: /\.svg$/, loader: 'svg-url-loader', options: {} }
+      { test: /\.svg$/, loader: 'svg-url-loader', options: {} },
+      { test: /\.(jpe?g|png|gif|svg)$/i, loaders: ['img-loader', 'url-loader?limit=10000'] }
     ]
   },
   output: {

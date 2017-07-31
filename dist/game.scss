@@ -6,7 +6,8 @@
   background: $blue-grey;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .question-wrapper {
@@ -19,6 +20,7 @@
 }
 
 .question-card {
+  padding: 1.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,29 +30,39 @@
   border-radius: 2px;
   box-shadow: 2px 2px 2px $dark-grey;
   height: 100%;
-  width: 400px;
+  width: 55%;
+}
+
+.question-card p {
+  text-align: center;
 }
 
 .submission-wrapper {
+  width: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height:10%;
 }
 
 .user-answer {
+  font-weight: 100;
   height: 80%;
-  width: 70%;
+  width: 40%;
   border: none;
+  text-align: center;
 }
 
 .answer-submit {
+  font-weight: 100;
   height: 85%;
   width: 15%;
   border: none;
+  margin: 0px 10px;
 }
 
 .new-question-btn {
+  font-weight: 100;
   height: 85%;
   width: 15%;
   border: none
