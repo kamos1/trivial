@@ -7,11 +7,14 @@ import { Scoreboard } from './Scoreboard'
 import { Navigation } from './Navigation'
 import openSocket from 'socket.io-client';
 import display from '../socket-api';
+import server from '../../server/server'
 
-const socket = openSocket(process.env.PORT || 'http://localhost:8081')
- // const socket = io();
- // console.log(socket)
- 
+
+
+const socket = openSocket(server)
+ console.log('this is that client logging server', server)
+ console.log('this is that client logging socket', socket)
+
 export default class App extends Component {
   constructor(){
     super()
