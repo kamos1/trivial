@@ -9,18 +9,18 @@
 }
 
 #navigation-wrapper h1 {
-  font-weight: 100;
-  font-size: 3em;
+  font-weight: 200;
+  font-size: 4em;
   margin-left: 25px;
 }
 
 #logo {
-  height: 75px;
-  width: 75px;
+  height: 125px;
+  width: 125px;
   margin-left: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('./images/logo.svg');
+  background: url('./images/trebek.png');
   background-size: cover;
 }

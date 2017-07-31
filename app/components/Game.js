@@ -14,7 +14,7 @@ export default class Game extends Component {
 			category: '',
 			userAnswer: '',
 			status: '',
-			displayAnswer: 'take a guess to see the correct answer',
+			displayAnswer: '',
 		}
 
 		socket.on('nextClue', (clue, obj) => {
@@ -22,7 +22,7 @@ export default class Game extends Component {
 		})
 
 		socket.on('announceWinner', (obj) => {
-			this.setState({ status: obj.userName, displayAnswer: this.state.currentClue.answer})
+			this.setState({ status: `${obj.userName} got the correct answer`, displayAnswer: this.state.currentClue.answer})
 			this.props.setScore(obj, this.state.currentClue.value)
 		})
 
@@ -38,7 +38,7 @@ export default class Game extends Component {
 				fetch(`/api/v1/category/${obj.title}`)
 					.then((res) => res.json())
 					.then((clue) => {
-						this.setState({ currentClue: clue, category: obj.title })
+						this.setState({ currentClue: clue, category: obj.title, status: '', displayAnswer: '' })
 						socket.emit('newQuestion', clue, obj)
 					})
 			})
@@ -63,6 +63,7 @@ export default class Game extends Component {
 		},250)
 
 		this.displayAnswer();
+		this.setState({ userAnswer:'' });
 	}
 
 	displayAnswer(){
@@ -79,12 +80,14 @@ export default class Game extends Component {
 				<section className='question-wrapper'>
 					<section className='question-card'>
 						<p>Category: {this.state.category.toUpperCase()}</p>
-						<p>Clue: {this.state.currentClue.question}</p>
-						<p>{this.state.status}</p>
-						<p>The correct answer is: {this.state.displayAnswer}</p>
+						<p>{this.state.currentClue.question}</p>
 					</section>
 				</section>
-				<div className='answer-append'></div>
+				<section className='answer-wrapper'>
+					<p>{this.state.status}</p>
+					<p>The correct answer is: {this.state.displayAnswer}</p>
+					<div className='answer-append'></div>
+				</section>
 				<section className='submission-wrapper'>
 					<input 	type='text'
 						className='user-answer'
