@@ -5,16 +5,12 @@ import Controls from './Controls';
 import Game from './Game'
 import { Scoreboard } from './Scoreboard'
 import { Navigation } from './Navigation'
-import openSocket from 'socket.io-client';
-import display from '../socket-api';
-import server from '../../server/server'
-
-
-
-const socket = openSocket(server)
- console.log('this is that client logging server', server)
- console.log('this is that client logging socket', socket)
-
+import io from 'socket.io-client';
+// import display from '../socket-api';
+// import server from '../../server/server'
+// import socket from 'socket.io'
+// const socket = require('socket.io')
+const socket = io();
 export default class App extends Component {
   constructor(){
     super()
