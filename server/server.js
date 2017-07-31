@@ -39,8 +39,8 @@ http.listen(app.get('port'), () => {
   console.log('listening on a port')
 })
 
-app.listen(app.get('port'), () => {
-  console.log('listening on a port')
-})
+// app.listen(app.get('port'), () => {
+//   console.log('listening on a port')
+// })
 
 module.exports = app;
