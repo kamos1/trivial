@@ -44,3 +44,15 @@
 #submit-btn:active {
   color: #fff;
 }
+
+@media screen and (max-width: 500px) {
+  #controls-wrapper {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #submit-btn {
+    margin-top: 40px;
+  }
+}
