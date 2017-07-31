@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+#controls {
+  height: auto;
+  width: 100%;
+  background: $blue-grey;
+  display: flex;
+  justify-content: center;
+}
+
+#controls-wrapper {
+  height: 500px;
+  width: 410px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 150px;
+}
+
+#input-field {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: 100;
+}
+
+#submit-btn {
+  height: 42px;
+  font-weight: 100;
+  border: none;
+  width: 130px;
+  color: $dark-grey;
+  border-radius: 2px;
+  -webkit-transition: background 0.1s ease-out;
+  -moz-transition: background 0.1s ease-out;
+}
+
+#submit-btn:hover {
+  background: $logo-background;
+}
+
+#submit-btn:active {
+  color: #fff;
+}
