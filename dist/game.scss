@@ -1,7 +1,11 @@
 @import './variables';
 
+.game-wrap {
+  height: 85%;
+}
+
 #game-container {
-  height: 420px;
+  height: 70vh;
   width: 100%;
   background: $blue-grey;
   display: flex;
@@ -67,4 +71,34 @@
   height: 85%;
   width: 15%;
   border: none
+}
+
+@media screen and (max-width: 500px) {
+  .submission-wrapper {
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    width: 100%
+  }
+
+  .question-wrapper {
+    height: 50%;
+  }
+
+  .new-question-btn {
+    width: 70%;
+  }
+
+  .answer-submit {
+    width: 70%;
+    margin: 10px 0px;
+  }
+
+  .user-answer {
+    width: 70%;
+  }
+
+  .question-card {
+    width: 90%;
+  }
 }
