@@ -2,11 +2,12 @@ const questionData = require('../../../data/sports.json')
 
 const createCategory = (knex, category) => {
   return knex('categories').insert({
+    id: category.id, 
     title: category.title
-  }, 'id')
+  })
   .then(categoryId => {
     let cluesPromises = [];
-
+    
     category.clues.forEach(clue => {
       if(clue.question.length < 5 || !clue.answer){
         return
@@ -17,7 +18,7 @@ const createCategory = (knex, category) => {
           question: clue.question,
           answer: clue.answer,
           value: clue.value,
-          categories_id: categoryId[0]
+          categories_id: category.id
         })
       )
     });
