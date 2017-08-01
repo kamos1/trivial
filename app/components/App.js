@@ -17,10 +17,6 @@ export default class App extends Component {
       currentUser: ''
     }
 
-    socket.on('works', (msg) => {
-      console.log(msg);
-    })
-
     socket.on('newUser', (username) => {
       this.setState({ users: Object.assign({}, this.state.users, {[username]: 0}) })
     })
