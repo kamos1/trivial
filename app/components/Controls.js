@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Route } from 'react-router-dom';
-// import { inputUsername } from '../socket-api.js';
 import io from 'socket.io-client';
 const socket = io();
 
