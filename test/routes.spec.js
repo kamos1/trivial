@@ -62,4 +62,13 @@ describe('API route', () => {
 			done();
 		})
 	})
+
+	it('should not return a random category', (done) => {
+		chai.request(server)
+		.get('/api/v1/jack')
+		.end((error, res) => {
+			res.should.have.status(404);
+			done();
+		})
+	})
 })

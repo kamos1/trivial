@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Route } from 'react-router-dom';
-import { inputUsername } from '../socket-api.js';
-
+// import { inputUsername } from '../socket-api.js';
+import io from 'socket.io-client';
+const socket = io();
 
 export default class Controls extends Component {
   constructor(){
@@ -10,6 +11,10 @@ export default class Controls extends Component {
     this.state = {
       userName: ''
     }
+  }
+
+  inputUsername(username) {
+    socket.emit('username', username)
   }
 
   handleClick () {

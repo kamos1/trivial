@@ -36,11 +36,13 @@ export default class App extends Component {
     }
   }
 
-
   render(){
     return(
       <section className='app-section'>
-        <Navigation />
+        <section id='navigation-wrapper'>
+          <div id='logo'></div>
+          <h1>TRIVIAL</h1>
+        </section>
         <Route exact path='/' render={({ history }) => (
             <Controls history={ history } setUserName={this.setUserName.bind(this)}/>
         )}/>
