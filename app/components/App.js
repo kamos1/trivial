@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import Controls from './Controls';
 import Game from './Game'
 import { Scoreboard } from './Scoreboard'
-import { Navigation } from './Navigation'
 import io from 'socket.io-client';
 
 const socket = io();
