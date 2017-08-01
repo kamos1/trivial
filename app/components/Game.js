@@ -11,18 +11,21 @@ export default class Game extends Component {
 		this.state = {
 			userName: '',
 			currentClue: {},
-			category: '',
+			category: 'click new question to begin game',
 			userAnswer: '',
 			status: '',
 			displayAnswer: '',
+			submissionStatus: 'disabled',
+			onlyGuess:[]
 		}
 
 		socket.on('nextClue', (clue, obj) => {
-			this.setState({ currentClue: clue, category: obj.title })
+			this.state.onlyGuess.pop()
+			this.setState({ currentClue: clue, category: obj.title, submissionStatus:'', onlyGuess: this.state.onlyGuess })
 		})
 
 		socket.on('announceWinner', (obj) => {
-			this.setState({ status: `${obj.userName} got the correct answer`, displayAnswer: this.state.currentClue.answer})
+			this.setState({ status: `${obj.userName} got the correct answer`, displayAnswer: this.state.currentClue.answer, submissionStatus:'disabled'})
 			this.props.setScore(obj, this.state.currentClue.value)
 		})
 
@@ -38,7 +41,7 @@ export default class Game extends Component {
 				fetch(`/api/v1/category/${obj.title}`)
 					.then((res) => res.json())
 					.then((clue) => {
-						this.setState({ currentClue: clue, category: obj.title, status: '', displayAnswer: '' })
+						this.setState({ currentClue: clue, category: obj.title, status: '', displayAnswer: '', submissionStatus: ''})
 						socket.emit('newQuestion', clue, obj)
 					})
 			})
@@ -48,6 +51,7 @@ export default class Game extends Component {
 		let userAns = this.state.userAnswer.toLowerCase();
 		let clueAns = this.state.currentClue.answer.toLowerCase();
 		let percentage = userAns.length/clueAns.length
+		this.state.onlyGuess.push(userAns)
 
 		this.setUserName()
 		setTimeout(() => {
@@ -75,6 +79,13 @@ export default class Game extends Component {
 	}
 
 	render() {
+		const inputStat = () => {
+			if(this.state.onlyGuess.length){
+				return 'disabled'
+			} else {
+				return ''
+			}
+		}
 		return(
 			<section id='game-container'>
 				<section className='question-wrapper'>
@@ -85,17 +96,18 @@ export default class Game extends Component {
 				</section>
 				<section className='answer-wrapper'>
 					<p>{this.state.status}</p>
-					<p>The correct answer is: {this.state.displayAnswer}</p>
 					<div className='answer-append'></div>
 				</section>
 				<section className='submission-wrapper'>
-					<input 	type='text'
+					<input
+						disabled={inputStat()}
+						type='text'
 						className='user-answer'
 						placeholder='Your Answer'
 						value={this.state.userAnswer}
 						onChange={(e) => this.setState({userAnswer: e.target.value})}
 					/>
-					<input type='submit' className='answer-submit' onClick={(e) => this.handleSubmit(e)}/>
+					<input disabled={this.state.submissionStatus} type='submit' className='answer-submit' onClick={(e) => this.handleSubmit(e)}/>
 					<button className='new-question-btn' onClick={() => this.fetchQuestion()}>New Question</button>
 				</section>
 			</section>

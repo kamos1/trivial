@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 #navigation-wrapper {
-  height: 125px;
+  height: 15vh;
   width: 100%;
   background: $dark-blue;
   display: flex;
@@ -9,13 +9,14 @@
 }
 
 #navigation-wrapper h1 {
+  font-family: $main-font;
   font-weight: 200;
   font-size: 4em;
   margin-left: 25px;
 }
 
 #logo {
-  height: 125px;
+  height: 15vh;
   width: 125px;
   margin-left: 25px;
   display: flex;

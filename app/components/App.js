@@ -43,13 +43,13 @@ export default class App extends Component {
 
   render(){
     return(
-      <section>
+      <section className='app-section'>
         <Navigation />
         <Route exact path='/' render={({ history }) => (
             <Controls history={ history } setUserName={this.setUserName.bind(this)}/>
         )}/>
         <Route exact path='/game' render={({ history }) => (
-          <div>
+          <div className='game-wrap'>
             <Game history={ history } currentUser={this.state.currentUser} setScore={this.setScore.bind(this)}/>
             <Scoreboard history={ history } users={this.state.users}/>
           </div>

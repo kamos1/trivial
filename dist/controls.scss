@@ -1,7 +1,7 @@
 @import './variables.scss';
 
 #controls {
-  height: auto;
+  height: 85vh;
   width: 100%;
   background: $blue-grey;
   display: flex;
@@ -9,21 +9,15 @@
 }
 
 #controls-wrapper {
-  height: 500px;
   width: 410px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding-top: 150px;
-  
-  @media screen and (max-width: 500px) {
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-  }
 }
 
 #input-field {
+  font-family: $main-font;
   width: 250px;
   height: 40px;
   border: none;
@@ -33,6 +27,7 @@
 }
 
 #submit-btn {
+  font-family: $main-font;
   height: 42px;
   font-weight: 100;
   border: none;
@@ -60,5 +55,6 @@
 
   #submit-btn {
     margin-top: 40px;
+    width: 250px;
   }
 }

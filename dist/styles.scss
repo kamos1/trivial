@@ -7,9 +7,17 @@
 
 html,
 body {
-  height: auto;
+  height: 100%;
   width: 100%;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   min-width: 320px;
+}
+
+#main-app {
+  min-height: 100%;
+}
+
+.app-section {
+  min-height: 100%;
 }
