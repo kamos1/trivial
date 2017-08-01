@@ -11,7 +11,7 @@ module.exports = {
       { test: /\.css$/, loader: 'style-loader!css-loader' },
       { test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
       { test: /\.svg$/, loader: 'svg-url-loader', options: {} },
-      { test: /\.(jpe?g|png|gif|svg)$/i, loaders: ['img-loader', 'url-loader?limit=10000'] }
+      { test: /\.(jpe?g|png|gif|svg|ttf)$/i, loaders: ['img-loader', 'url-loader?limit=10000'] }
     ]
   },
   output: {
