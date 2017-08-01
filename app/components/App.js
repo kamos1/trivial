@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import Controls from './Controls';
 import Game from './Game'
 import { Scoreboard } from './Scoreboard'
-import { Navigation } from './Navigation'
 import io from 'socket.io-client';
 
 const socket = io();
@@ -16,10 +15,6 @@ export default class App extends Component {
       users: {},
       currentUser: ''
     }
-
-    socket.on('works', (msg) => {
-      console.log(msg);
-    })
 
     socket.on('newUser', (username) => {
       this.setState({ users: Object.assign({}, this.state.users, {[username]: 0}) })
@@ -40,11 +35,13 @@ export default class App extends Component {
     }
   }
 
-
   render(){
     return(
       <section className='app-section'>
-        <Navigation />
+        <section id='navigation-wrapper'>
+          <div id='logo'></div>
+          <h1>TRIVIAL</h1>
+        </section>
         <Route exact path='/' render={({ history }) => (
             <Controls history={ history } setUserName={this.setUserName.bind(this)}/>
         )}/>

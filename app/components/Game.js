@@ -61,7 +61,6 @@ export default class Game extends Component {
 			} else {
 				this.setState({status: 'LOSER'});
 				socket.emit('wrong', {userName: this.state.userName, answer: 'incorrect'})
-
 		}
 
 		},250)

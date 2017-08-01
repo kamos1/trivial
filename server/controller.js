@@ -10,7 +10,7 @@ const getCategory = (req, res) => {
           const randomClue = clues[Math.floor((Math.random() * clues.length) - 1)]
           res.status(200).json(randomClue)
         })
-        .catch(error => console.log(error))
+        .catch(error => console.error(error));
       } else {
         res.status(404).json({ error: `${req.params.name} does not exist! Please check the category you requested!`})
       }
