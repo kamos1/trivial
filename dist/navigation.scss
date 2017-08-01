@@ -17,11 +17,18 @@
 
 #logo {
   height: 15vh;
-  width: 125px;
+  width: 15vh;
   margin-left: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: url('./images/trebek.png');
   background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+  #navigation-wrapper h1 {
+    font-size: 2em;
+    margin-left: 10px;
+  }
 }
