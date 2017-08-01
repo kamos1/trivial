@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router, Route, MemoryRouter } from 'react-router';
 import { shallow, mount } from 'enzyme';
-import Controls from '../app/components/Controls';
+import Controls from '../../app/components/Controls';
 
 describe('Controls component tests', () => {
 
