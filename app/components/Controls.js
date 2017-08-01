@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Route } from 'react-router-dom';
-// import { inputUsername } from '../socket-api.js';
 import io from 'socket.io-client';
 const socket = io();
 
@@ -32,7 +31,7 @@ export default class Controls extends Component {
     return(
       <section id='controls'>
         <section id='controls-wrapper'>
-          <input id='input-field' type='text' placeholder='Enter Your Username' value={this.state.userName} onChange={(e) => this.handleUserInput(e)} />
+          <input id='input-field' maxLength='10' type='text' placeholder='Enter Your Username' value={this.state.userName} onChange={(e) => this.handleUserInput(e)} />
           <input id='submit-btn' type='submit' onClick={() => this.handleClick()} />
         </section>
       </section>
